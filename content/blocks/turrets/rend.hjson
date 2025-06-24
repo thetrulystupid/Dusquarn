@@ -15,10 +15,10 @@ recoil: 1.5
 velocityRnd: 0.2
 shootY: -0.2
 researchCost: [
-  sand/35
+  manganese/35
 ]
 ammoTypes: {
-	sand: {
+	manganese: {
 		type: BasicBulletType
 		speed: 6.5,
 		damage: 13,
@@ -51,7 +51,7 @@ drawer: {
   ]
 }
 requirements: [
-    sand/70
+    manganese/70
 ]
 coolantMultiplier: 0.8
 coolant: {
