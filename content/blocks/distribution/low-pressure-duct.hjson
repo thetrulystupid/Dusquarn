@@ -1,0 +1,12 @@
+type: Duct
+name: Low Pressure Duct
+description: Slowly pushes items forward. Can only hold a single item.
+category: distribution
+researchCost: [
+  manganese/20
+]
+speed: 9
+health: 40
+requirements: [
+  manganese/2
+]
