@@ -5,7 +5,7 @@ size: 2
 targetAir: false
 targetGround: true
 health: 650
-outlineColor: 131624
+outlineColor: 16192b
 inaccuracy: 7
 reload: 90
 shootCone: 7
