@@ -4,8 +4,8 @@ description: Outputs items at a slow pace indefinitely. Can only mine basic item
 size: 2
 category: production
 squareSprite: false
-warmupSpeed: 0.011
-rotateSpeed: 1.1
+warmupSpeed: 0.018
+rotateSpeed: 1.8
 tier: 1
 requirements: [
   manganese/18
