@@ -1,0 +1,13 @@
+type: Junction
+name: Pressurized Junction
+description: Allows pressurized ducts to cross over eachother.
+category: distribution
+speed: 9
+health: 80
+squareSprite: false
+researchCost: [
+  manganese/80
+]
+requirements: [
+  manganese/4
+]
