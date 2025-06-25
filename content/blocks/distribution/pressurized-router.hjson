@@ -1,0 +1,14 @@
+type: Router
+name: Pressurized Router
+description: Outputs items to all 3 sides.
+category: distribution
+speed: 9
+health: 80
+squareSprite: false
+research: low-pressure-duct
+researchCost: [
+  manganese/80
+]
+requirements: [
+  manganese/4
+]
