@@ -1,0 +1,16 @@
+type: Drill
+name: Steady Drill
+description: Outputs items at a slow pace indefinitely. Can only mine basic items.
+size: 2
+category: production
+squareSprite: false
+warmupSpeed: 0.011
+rotateSpeed: 1.1
+tier: 1
+requirements: [
+  manganese/18
+]
+drillTime: 340
+ambientSound: drill
+ambientSoundVolume: 0.06
+liquidBoostIntensity: 1
