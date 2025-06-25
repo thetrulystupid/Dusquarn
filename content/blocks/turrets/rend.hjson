@@ -10,7 +10,7 @@ inaccuracy: 7
 reload: 75
 shootCone: 7
 rotateSpeed: 2.5
-range: 105
+range: 110
 recoil: 2
 velocityRnd: 0.2
 shootY: 0.15
@@ -27,15 +27,15 @@ ammoTypes: {
 		frontColor: f1b5de
 		backColor: b77aa4
 		trailColor: f1b5de
-		trailLength: 1.5
-		trailWidth: 2
+		trailLength: 2.5
+		trailWidth: 1.5
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 3,
 		pierce: true
 		pierceCap: 1
    		knockback: 0.6
-    		lifetime: 24
+    		lifetime: 28
 	},
 }
 requirements: [
