@@ -10,10 +10,10 @@ inaccuracy: 7
 reload: 75
 shootCone: 7
 rotateSpeed: 2.5
-range: 120
-recoil: 1.5
+range: 105
+recoil: 2
 velocityRnd: 0.2
-shootY: -0.1
+shootY: 0.15
 researchCost: [
   manganese/35
 ]
@@ -27,11 +27,11 @@ ammoTypes: {
 		frontColor: f1b5de
 		backColor: b77aa4
 		trailColor: f1b5de
-		trailLength: 1
-		trailWidth: 1
+		trailLength: 1.5
+		trailWidth: 2
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
-		ammoMultiplier: 4,
+		ammoMultiplier: 3,
 		pierce: true
 		pierceCap: 1
    		knockback: 0.6
