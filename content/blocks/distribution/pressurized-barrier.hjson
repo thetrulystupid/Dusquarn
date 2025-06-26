@@ -1,0 +1,13 @@
+type: Sorter
+name: Pressurized Barrier
+invert: true
+description: Sorts items. Selected item is sent to the sides, others are output forward.
+category: distribution
+squareSprite: false
+research: pressurized-gate
+researchCost: [
+  manganese/120
+]
+requirements: [
+  manganese/6
+]
