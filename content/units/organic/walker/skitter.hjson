@@ -20,15 +20,16 @@ legMoveSpace: 1.4
         alternate: false
         rotate: false
         reload: 113
-        inaccuracy: 13
+        inaccuracy: 17
         velocityRnd: -0.4
+	lifetime: 33
         buildingDamageMultiplier: 1.50
         shoot: {
         shots: 7
         }
         bullet: {
         type: BasicBulletType
-        speed: 3.5
+        speed: 3
         frontColor: f1b5de
         backColor: b77aa4
         trailColor: f1b5de
@@ -38,7 +39,7 @@ legMoveSpace: 1.4
         height: 5
         damage: 6
         status: sapped
-        statusDuration: 360
+        statusDuration: 240
         }
     }
 ]
