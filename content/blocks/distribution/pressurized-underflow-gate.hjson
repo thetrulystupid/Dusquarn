@@ -1,0 +1,12 @@
+type: OverflowGate
+invert: true
+name: Pressurized Underflow Gate
+description: Outputs items to the front if the sides are blocked.
+category: distribution
+research: pressurized-overflow-gate
+researchCost: [
+  manganese/180
+]
+requirements: [
+  manganese/9
+]
