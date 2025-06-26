@@ -1,17 +1,17 @@
 type: legs
 name: Skitter
 description: Brittle spider for campaign sectors.
-speed: 1.3
+speed: 1.0
 flying: false
 health: 120
 outlineColor: 2a2e35
 hitSize: 6
 legCount: 4
-legLength: 3.5
-legSpeed: 0.05
-legForwardScl: 0.36
+legLength: 4
+legSpeed: 0.11
+legForwardScl: 0.63
 legExtension: -2
-legMoveSpace: 0.9
+legMoveSpace: 1.4
   weapons: [
     {
         x: 0
