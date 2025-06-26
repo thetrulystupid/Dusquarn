@@ -4,7 +4,6 @@ description: Allows pressurized ducts to cross over eachother.
 category: distribution
 speed: 9
 health: 80
-squareSprite: false
 research: low-pressure-duct
 researchCost: [
   manganese/80
