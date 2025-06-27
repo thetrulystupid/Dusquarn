@@ -3,7 +3,7 @@ name: Skitter
 description: Brittle spider for campaign sectors.
 speed: 1.0
 flying: false
-health: 120
+health: 180
 outlineColor: 2a2e35
 hitSize: 6
 legCount: 4
@@ -20,9 +20,9 @@ legMoveSpace: 1.4
         alternate: false
         rotate: false
         reload: 113
-        inaccuracy: 17
-        velocityRnd: -0.4
-	lifetime: 33
+        inaccuracy: 22
+        velocityRnd: -0.55
+	lifetime: 28
         buildingDamageMultiplier: 1.50
         shoot: {
         shots: 7
@@ -33,11 +33,11 @@ legMoveSpace: 1.4
         frontColor: f1b5de
         backColor: b77aa4
         trailColor: f1b5de
-	trailLength: 1.5
-	trailWidth: 0.5
-        width: 2
-        height: 5
-        damage: 6
+	trailLength: 1
+	trailWidth: 1
+        width: 5
+        height: 8
+        damage: 8
         status: sapped
         statusDuration: 240
         }
