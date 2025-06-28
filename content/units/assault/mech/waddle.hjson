@@ -1,0 +1,39 @@
+type: mech
+name: Waddle
+description: Fires alternating explosives at nearby targets. Well armored.
+speed: 0.7
+flying: false
+health: 360
+armor: 2
+hitSize: 8
+outlineColor: 16192b
+research: assault-fabricator
+researchCost: [
+  coal/250
+  sand/150
+]
+  weapons: [
+    {
+        x: 4
+        y: 0
+        name: waddle-launcher
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 88
+        recoil: 2
+	      top: false
+        bullet: {
+        type: BasicBulletType
+        speed: 2
+	    	trailColor: d9d9d9
+	    	trailLength: 2
+	    	trailWidth: 2
+        width: 8
+        height: 5
+        damage: 19
+        splashDamage: 18
+        splashDamageRadius: 29
+        }
+    }
+]
