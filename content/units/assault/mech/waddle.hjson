@@ -7,7 +7,6 @@ health: 360
 armor: 2
 hitSize: 8
 outlineColor: 16192b
-research: assault-fabricator
 researchCost: [
   coal/250
   sand/150
