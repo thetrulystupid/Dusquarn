@@ -22,18 +22,18 @@ researchCost: [
         rotate: false
         reload: 88
         recoil: 2
-	      top: false
-        bullet: {
-        type: BasicBulletType
-        speed: 2
-	    	trailColor: d9d9d9
-	    	trailLength: 2
-	    	trailWidth: 2
-        width: 8
-        height: 5
-        damage: 19
-        splashDamage: 18
-        splashDamageRadius: 29
+	top: false
+        	bullet: {
+        		type: BasicBulletType
+        		speed: 2
+			trailColor: d9d9d9
+			trailLength: 2
+			trailWidth: 2
+        		width: 8
+        		height: 5
+        		damage: 19
+        		splashDamage: 19
+        		splashDamageRadius: 21
         }
     }
 ]
