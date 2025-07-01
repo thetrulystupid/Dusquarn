@@ -9,7 +9,7 @@ armor: 2
 hitSize: 11
 outlineColor: 16192b
 researchCost: [
-  coal/250
+  aluminium/2400
   sand/150
 ]
   weapons: [
