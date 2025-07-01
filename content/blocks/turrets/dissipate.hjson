@@ -19,7 +19,7 @@ researchCost: [
   aluminium/55
 ]
 ammoTypes: {
-	manganese: {
+	aluminium: {
 		type: BasicBulletType
 		speed: 6.5,
 		damage: 29,
