@@ -1,7 +1,7 @@
 type: mech
 name: Waddle
 description: Fires alternating explosives at nearby targets. Well armored but slow.
-speed: 0.5
+speed: 0.55
 targetAir: false
 flying: false
 health: 390
@@ -14,7 +14,7 @@ researchCost: [
 ]
   weapons: [
     {
-        x: 5.5
+        x: 4
         y: 0
         name: waddle-launcher
         mirror: true
