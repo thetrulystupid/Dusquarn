@@ -2,7 +2,7 @@ type: flying
 flying: true
 name: Impede
 description: Fires EMP-like charges at enemies. Fragile and slow.
-drag: 0.07
+drag: 0.035
 outlineColor: 16192b
 speed: 7
 rotateSpeed: 3.5
