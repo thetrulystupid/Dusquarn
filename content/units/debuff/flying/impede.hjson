@@ -30,7 +30,8 @@ weapons: [
     reload: 144
     shootCone: 6
     rotate: false
-    bullet: {
+    bullet: [
+	{
           type: BasicBulletType
           speed: 3.5
           backColor: 665c9f
@@ -63,3 +64,4 @@ weapons: [
                   speed: 6
         }
     }
+]
