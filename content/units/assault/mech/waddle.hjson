@@ -21,19 +21,21 @@ researchCost: [
         rotate: false
         reload: 88
         recoil: 2
-	top: false
+	top: true
 	shootSound: bang
         	bullet: {
         		type: BasicBulletType
-        		speed: 1.5
-			trailColor: d9d9d9
+        		speed: 2
+			backColor: d46c54
+			frontColor: ffa665
+			trailColor: ffa665
 			trailLength: 2.5
 			trailWidth: 1.5
         		width: 8
         		height: 5
-        		damage: 19
-        		splashDamage: 19
-        		splashDamageRadius: 21
+        		damage: 26
+        		splashDamage: 26
+        		splashDamageRadius: 23
 			hitEffect: blastExplosion
 			despawnEffect: blastExplosion
         }
