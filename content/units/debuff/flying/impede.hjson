@@ -35,9 +35,9 @@ weapons: [
           speed: 3.5
           backColor: 665c9f
           frontColor: bf92f9
-	        trailColor: e4cfff
-	        trailLength: 2
-	        trailWidth: 2
+	  trailColor: e4cfff
+	  trailLength: 2
+	  trailWidth: 2
           damage: 13
           splashDamage: 13
           splashDamageRadius: 17
@@ -63,4 +63,3 @@ weapons: [
                   speed: 6
         }
     }
-]
