@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Dissipate
+description: Fires fast high-explosive rounds at nearby enemies. Cannot target at ground units.
+size: 2
+targetAir: true
+targetGround: false
+health: 660
+outlineColor: 16192b
+inaccuracy: 9
+reload: 48
+shootCone: 9
+rotateSpeed: 4
+range: 240
+recoil: 3
+velocityRnd: 0.15
+shootY: 0.3
+researchCost: [
+  manganese/80
+  sand/55
+]
+ammoTypes: {
+	manganese: {
+		type: BasicBulletType
+		speed: 6.5,
+		damage: 29,
+    splashDamage: 29
+    splashDamageRadius: 33
+		hitEffect: flakExplosion
+		despawnEffect: flakExplosion
+		width: 5
+		height: 11
+		frontColor: f1b5de
+		backColor: b77aa4
+		trailColor: f1b5de
+		trailLength: 2.5
+		trailWidth: 1.5
+		shootEffect: shootSmall,
+		smokeEffect: shootSmallSmoke,
+		ammoMultiplier: 4,
+    lifetime: 18
+	},
+}
+requirements: [
+    manganese/800
+    sand/550
+]
+coolantMultiplier: 0.8
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.15
+}
+category: turret
+shootSound: artillery
+squareSprite: false
