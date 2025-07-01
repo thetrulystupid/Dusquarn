@@ -48,6 +48,8 @@ weapons: [
           statusDuration: 360
           length: 6
           width: 8
+	  hitEffect: blastExplosion
+	  despawnEffect: blastExplosion
           fragBullets: 4
               fragBullet: {
                   type: BasicBulletType
