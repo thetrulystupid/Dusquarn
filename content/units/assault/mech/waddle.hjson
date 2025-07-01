@@ -13,7 +13,7 @@ researchCost: [
 ]
   weapons: [
     {
-        x: 4
+        x: 3.5
         y: 0
         name: waddle-launcher
         mirror: true
