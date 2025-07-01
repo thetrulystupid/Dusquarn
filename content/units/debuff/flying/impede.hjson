@@ -43,7 +43,7 @@ weapons: [
           splashDamage: 19
           splashDamageRadius: 24
           homingDelay: 5
-          homingPower: 0.04
+          homingPower: 0.03
           status: delayed
           statusDuration: 360
           length: 6
