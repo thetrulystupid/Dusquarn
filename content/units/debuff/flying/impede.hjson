@@ -30,8 +30,7 @@ weapons: [
     reload: 144
     shootCone: 6
     rotate: false
-    bullet: [
-	{
+    bullet: {
           type: BasicBulletType
           speed: 3.5
           backColor: 665c9f
@@ -62,8 +61,7 @@ weapons: [
                   homingDelay: 2
                   homingPower: 0.54
                   speed: 6
-	      }
-          }
-      ]
+	 }
+      }
    }
 ]
