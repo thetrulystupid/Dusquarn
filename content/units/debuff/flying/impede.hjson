@@ -30,7 +30,7 @@ weapons: [
     reload: 108
     shootCone: 6
     rotate: false
-    shootSound: shootAltLong
+    shootSound: laser
     bullet: {
           type: BasicBulletType
           speed: 2.5
@@ -48,6 +48,7 @@ weapons: [
           statusDuration: 360
           length: 6
           width: 8
+	  recoil: 1.5
 	  hitEffect: blastExplosion
 	  despawnEffect: blastExplosion
           fragBullets: 3
@@ -63,7 +64,7 @@ weapons: [
                   frontColor: bf92f9
                   homingDelay: 3
                   homingPower: 0.12
-                  speed: 2
+                  speed: 3.5
 		  status: delayed
 		  statusDuration: 120
 	 }
