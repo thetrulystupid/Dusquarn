@@ -15,8 +15,8 @@ hitSize: 9
 engines: [
   {
     x: 0
-    y: -5
-    radius: 3
+    y: -5.5
+    radius: 2.5
     rotation: -90
   }
 ]
