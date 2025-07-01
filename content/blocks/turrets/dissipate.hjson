@@ -9,7 +9,7 @@ outlineColor: 16192b
 inaccuracy: 5
 reload: 48
 shootCone: 9
-rotateSpeed: 4
+rotateSpeed: 5.5
 range: 240
 recoil: 3
 velocityRnd: 0.15
@@ -37,7 +37,7 @@ ammoTypes: {
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
-   		lifetime: 22
+   		lifetime: 24
 	},
 }
 requirements: [
