@@ -41,7 +41,7 @@ weapons: [
 	  trailWidth: 1.5
           damage: 19
           splashDamage: 19
-          splashDamageRadius: 17
+          splashDamageRadius: 14
           homingDelay: 5
           homingPower: 0.04
           status: delayed
