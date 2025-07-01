@@ -63,5 +63,6 @@ weapons: [
                   homingPower: 0.54
                   speed: 6
 	    }
-	 }
-      ]
+	}
+    ]
+}
