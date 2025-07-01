@@ -21,7 +21,7 @@ researchCost: [
 ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
-		speed: 10.5,
+		speed: 13,
 		damage: 29,
     		splashDamage: 29
     		splashDamageRadius: 29
@@ -37,7 +37,7 @@ ammoTypes: {
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
-   		lifetime: 19
+   		lifetime: 18
 	},
 }
 requirements: [
