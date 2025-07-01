@@ -42,8 +42,8 @@ weapons: [
           damage: 13
           splashDamage: 13
           splashDamageRadius: 17
-          homingDelay: 3
-          homingPower: 0.18
+          homingDelay: 5
+          homingPower: 0.05
           status: delayed
           statusDuration: 360
           length: 6
@@ -61,9 +61,9 @@ weapons: [
                   trailColor: e4cfff
                   backColor: 665c9f
                   frontColor: bf92f9
-                  homingDelay: 2
-                  homingPower: 0.54
-                  speed: 4
+                  homingDelay: 3
+                  homingPower: 0.15
+                  speed: 2
 	 }
       }
    }
