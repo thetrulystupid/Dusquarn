@@ -13,15 +13,15 @@ researchCost: [
 ]
   weapons: [
     {
-        x: 4
+        x: 5
         y: 0
         name: waddle-launcher
         mirror: true
         alternate: true
         rotate: false
-        reload: 88
+        reload: 77
         recoil: 2
-	top: true
+	top: false
 	shootSound: bang
         	bullet: {
         		type: BasicBulletType
@@ -35,7 +35,7 @@ researchCost: [
         		height: 5
         		damage: 26
         		splashDamage: 26
-        		splashDamageRadius: 23
+        		splashDamageRadius: 19
 			hitEffect: blastExplosion
 			despawnEffect: blastExplosion
         }
