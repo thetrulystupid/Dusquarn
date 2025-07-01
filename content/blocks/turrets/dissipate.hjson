@@ -37,7 +37,7 @@ ammoTypes: {
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
-   		lifetime: 31
+   		lifetime: 28
 	},
 }
 requirements: [
