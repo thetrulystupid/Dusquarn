@@ -6,9 +6,9 @@ targetAir: true
 targetGround: false
 health: 660
 outlineColor: 16192b
-inaccuracy: 7
-reload: 48
-shootCone: 12
+inaccuracy: 5
+reload: 42
+shootCone: 9
 rotateSpeed: 4
 range: 240
 recoil: 3
@@ -21,7 +21,7 @@ researchCost: [
 ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
-		speed: 6.5,
+		speed: 9,
 		damage: 29,
     		splashDamage: 29
     		splashDamageRadius: 29
@@ -29,11 +29,11 @@ ammoTypes: {
 		despawnEffect: flakExplosion
 		width: 5
 		height: 11
-		frontColor: f1b5de
-		backColor: b77aa4
-		trailColor: f1b5de
-		trailLength: 2.5
-		trailWidth: 1.5
+		frontColor: bebebe
+		backColor: 818181
+		trailColor: bebebe
+		trailLength: 3
+		trailWidth: 1
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
