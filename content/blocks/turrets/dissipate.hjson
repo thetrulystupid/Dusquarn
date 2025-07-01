@@ -6,9 +6,9 @@ targetAir: true
 targetGround: false
 health: 660
 outlineColor: 16192b
-inaccuracy: 9
+inaccuracy: 7
 reload: 48
-shootCone: 9
+shootCone: 12
 rotateSpeed: 4
 range: 240
 recoil: 3
@@ -16,15 +16,15 @@ velocityRnd: 0.15
 shootY: 0.3
 researchCost: [
   manganese/80
-  sand/55
+  aluminium/55
 ]
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 6.5,
 		damage: 29,
-    splashDamage: 29
-    splashDamageRadius: 33
+    		splashDamage: 29
+    		splashDamageRadius: 29
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
 		width: 5
@@ -37,12 +37,12 @@ ammoTypes: {
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
-    lifetime: 18
+   		lifetime: 21
 	},
 }
 requirements: [
     manganese/800
-    sand/550
+    aluminium/550
 ]
 coolantMultiplier: 0.8
 coolant: {
