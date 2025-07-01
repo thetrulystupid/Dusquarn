@@ -27,9 +27,10 @@ weapons: [
     y: 0
     mirror: false
     alternate: false
-    reload: 122
+    reload: 108
     shootCone: 6
     rotate: false
+    shootSound: mediumCannon
     bullet: {
           type: BasicBulletType
           speed: 2.5
