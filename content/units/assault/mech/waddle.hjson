@@ -6,7 +6,7 @@ targetAir: false
 flying: false
 health: 390
 armor: 2
-hitSize: 8
+hitSize: 11
 outlineColor: 16192b
 researchCost: [
   coal/250
@@ -14,7 +14,7 @@ researchCost: [
 ]
   weapons: [
     {
-        x: 3.25
+        x: 5.5
         y: 0
         name: waddle-launcher
         mirror: true
@@ -30,10 +30,10 @@ researchCost: [
 			backColor: d46c54
 			frontColor: ffa665
 			trailColor: ffa665
-			trailLength: 2.5
-			trailWidth: 1.5
-        		width: 8
-        		height: 5
+			trailLength: 3
+			trailWidth: 2
+        		width: 10
+        		height: 7
         		damage: 26
         		splashDamage: 26
         		splashDamageRadius: 29
