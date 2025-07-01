@@ -1,0 +1,66 @@
+type: flying
+flying: true
+name: Impede
+description: Fires EMP-like charges at enemies. Fragile and slow.
+drag: 0.35
+outlineColor: 2a2e35
+speed: 7
+rotateSpeed: 2.5
+accel: 0.07
+groundLayer: 60
+health: 360
+armor: 1
+engineSize: 0
+hitSize: 6
+engines: [
+  {
+    x: 0
+    y: -3.5
+    radius: 1
+    rotation: -90
+  }
+]
+itemCapacity: 0
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    alternate: false
+    reload: 144
+    shootCone: 6
+    rotate: false
+    bullet: {
+          type: BasicBulletType
+          speed: 3.5
+          backColor: 665c9f
+          frontColor: bf92f9
+	        trailColor: e4cfff
+	        trailLength: 2
+	        trailWidth: 2
+          damage: 13
+          splashDamage: 13
+          splashDamageRadius: 17
+          homingDelay: 3
+          homingPower: 0.18
+          status: delayed
+          statusDuration: 360
+          length: 6
+          width: 8
+          fragBullets: 4
+              fragBullet: {
+                  type: BasicBulletType
+                  length: 3
+                  width: 4
+                  damage: 8
+                  trailLength: 1.5
+                  trailWidth: 1
+                  trailColor: e4cfff
+                  backColor: 665c9f
+                  frontColor: bf92f9
+                  homingDelay: 2
+                  homingPower: 0.54
+                  speed: 6
+        }
+    }
+]
