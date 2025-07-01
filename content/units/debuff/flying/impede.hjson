@@ -64,6 +64,8 @@ weapons: [
                   homingDelay: 3
                   homingPower: 0.12
                   speed: 2
+		  status: delayed
+		  statusDuration: 120
 	 }
       }
    }
