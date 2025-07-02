@@ -1,0 +1,40 @@
+type: mech
+name: Spade
+description: Defends the Trench core. Fires heavy armor-piercing blasts at nearby enemies.
+speed: 0.8
+flying: false
+health: 240
+armor: 3
+isEnemy: false
+itemCapacity: 40
+buildSpeed: 0.8
+mineSpeed: 5.5
+mineTier: 1
+hitSize: 10
+canBoost: true
+boostMultiplier: 1.5
+outlineColor: 16192b
+  weapons: [
+    {
+        x: 4
+        y: 0
+        name: spade-weapon
+        mirror: true
+        alternate: false
+        rotate: false
+        reload: 84
+        recoil: 3
+      	top: false
+	      shootSound: bang
+        	bullet: {
+        		type: ShrapnelBulletType
+            pierceArmor: true
+            fromColor: ffa665
+            toColor: d46c54
+        		width: 10
+        		height: 70
+        		damage: 22
+            buildingDamageMultiplier: 0.01
+        }
+    }
+]
