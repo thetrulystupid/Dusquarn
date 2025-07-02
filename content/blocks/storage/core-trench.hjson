@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Trench
+description: The most important building, if this dies, the sector is lost. Stores a small amount of items.
+requirements: [
+  manganese/800
+  aluminium/600
+]
+isFirstTier: true
+size: 3
+unitType: spade
+squareSprite: false
+health: 1200
+armor: 3
+itemCapacity: 3000
+unitCapModifier: 12
+alwaysUnlocked: true
+category: effect
+research: {
+  planet: monnokromica
+  root: true
+  name: Monnokromica
+}
