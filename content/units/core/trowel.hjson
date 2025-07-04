@@ -1,14 +1,14 @@
 type: mech
-name: Spade
+name: Trowel
 description: Defends the Trench core. Fires heavy armor-piercing blasts at nearby enemies.
-speed: 0.8
+speed: 0.9
 flying: false
-health: 240
+health: 330
 armor: 3
 isEnemy: false
 itemCapacity: 40
-buildSpeed: 0.8
-mineSpeed: 5.5
+buildSpeed: 0.9
+mineSpeed: 6.5
 mineTier: 1
 hitSize: 10
 canBoost: true
@@ -22,18 +22,18 @@ outlineColor: 16192b
         mirror: true
         alternate: false
         rotate: false
-        reload: 84
-        recoil: 3
+        reload: 73
+        recoil: 2.5
       	top: false
-	      shootSound: bang
-        	bullet: {
-        		type: ShrapnelBulletType
+	shootSound: bang
+	bullet: {
+            type: ShrapnelBulletType
             pierceArmor: true
             fromColor: ffa665
             toColor: d46c54
-        		width: 10
-        		height: 70
-        		damage: 22
+            width: 6
+            height: 40
+            damage: 33
             buildingDamageMultiplier: 0.01
         }
     }
