@@ -18,7 +18,7 @@ outlineColor: 16192b
     {
         x: 4
         y: 0
-        name: spade-weapon
+        name: 11j-01-trowel-weapon
         mirror: true
         alternate: false
         rotate: false
