@@ -7,7 +7,7 @@ requirements: [
 ]
 isFirstTier: true
 size: 3
-unitType: spade
+unitType: trowel
 squareSprite: false
 health: 1200
 armor: 3
