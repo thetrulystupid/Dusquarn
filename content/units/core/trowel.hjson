@@ -3,8 +3,8 @@ name: Trowel
 description: Defends the Trench core. Fires heavy armor-piercing blasts at nearby enemies.
 speed: 0.9
 flying: false
-health: 330
-armor: 3
+health: 440
+armor: 4
 isEnemy: false
 itemCapacity: 40
 buildSpeed: 0.9
@@ -28,12 +28,14 @@ outlineColor: 16192b
 	shootSound: bang
 	bullet: {
             type: ShrapnelBulletType
+	    shootEffect: shootBig
+	    smokeEffect: shootBigSmoke
             pierceArmor: true
             fromColor: ffa665
             toColor: d46c54
             width: 6
             height: 40
-            damage: 33
+            damage: 22
             buildingDamageMultiplier: 0.01
         }
     }
