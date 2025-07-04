@@ -16,7 +16,7 @@ researchCost: [
     {
         x: 4
         y: 0
-        name: waddle-launcher
+        name: 11k-01-waddle-launcher
         mirror: true
         alternate: true
         rotate: false
