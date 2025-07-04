@@ -1,0 +1,40 @@
+type: naval
+name: Perceive
+description: Fires large, fast bricks of aluminium-manganese alloy at nearby enemies. More effective against units.
+speed: 2
+armor: 4
+canDrown: false
+omniMovement: false
+faceTarget: true
+health: 630
+hitSize: 11
+  weapons: [
+    {
+        x: 0
+        y: 1
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 96
+        recoil: 2
+	top: false
+	shootSound: shootAlt
+      bullet: {
+          type: BasicBulletType
+          speed: 9
+			    backColor: 6373d0
+			    frontColor: 424e93
+			    trailColor: 6373d0
+			    trailLength: 2.5
+			    trailWidth: 1
+          width: 5
+          height: 9
+          damage: 74
+          buildingDamageMultiplier: 0.5
+          lifetime: 22
+          recoil: 2
+			    hitEffect: flakExplosion
+			    despawnEffect: flakExplosion
+        }
+    }
+]
