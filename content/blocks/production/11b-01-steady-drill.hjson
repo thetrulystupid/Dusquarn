@@ -4,13 +4,13 @@ description: Outputs items at a slow pace indefinitely. Can only mine basic item
 size: 2
 category: production
 squareSprite: false
-warmupSpeed: 0.018
+warmupSpeed: 0.009
 rotateSpeed: 1.8
 tier: 1
 requirements: [
-  manganese/18
+  manganese/14
 ]
-drillTime: 340
+drillTime: 370
 ambientSound: drill
 ambientSoundVolume: 0.06
 liquidBoostIntensity: 1
