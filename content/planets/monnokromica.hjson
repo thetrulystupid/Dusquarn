@@ -104,7 +104,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-trench
+defaultCore: 11a-01-core-trench
 parent: sun
 solarSystem: sun
 launchCandidates: []
