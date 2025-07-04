@@ -2,7 +2,7 @@ type: Wall
 name: Large Manganese Wall
 description: Large blob of manganese designed to defend structures.
 size: 2
-health: 2200
+health: 1440
 squareSprite: false
 requirements: [
   manganese/32
