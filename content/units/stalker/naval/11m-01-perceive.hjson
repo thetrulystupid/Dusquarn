@@ -22,19 +22,19 @@ hitSize: 11
       bullet: {
           type: BasicBulletType
           speed: 9
-			    backColor: 6373d0
-			    frontColor: 424e93
-			    trailColor: 6373d0
-			    trailLength: 2.5
-			    trailWidth: 1
+	backColor: 6373d0
+	frontColor: 424e93
+	trailColor: 6373d0
+	trailLength: 2.5
+	trailWidth: 1
           width: 5
           height: 9
           damage: 74
           buildingDamageMultiplier: 0.5
           lifetime: 22
           recoil: 2
-			    hitEffect: flakExplosion
-			    despawnEffect: flakExplosion
+	hitEffect: flakExplosion
+	despawnEffect: flakExplosion
         }
     }
 ]
