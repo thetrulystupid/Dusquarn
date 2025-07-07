@@ -5,10 +5,10 @@ description: Outputs items to the front if the sides are blocked.
 category: distribution
 research: pressurized-overflow-gate
 researchCost: [
-  manganese/180
+  manganese/160
   aluminium/120
 ]
 requirements: [
-  manganese/9
+  manganese/8
   aluminium/6
 ]
