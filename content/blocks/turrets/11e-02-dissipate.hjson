@@ -51,6 +51,10 @@ coolant: {
   allowLiquid: true
   amount: 0.15
 }
+drawer: {
+  type: DrawTurret
+  basePrefix: monno-
+}
 category: turret
 shootSound: artillery
 squareSprite: false
