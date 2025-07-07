@@ -4,8 +4,8 @@ description: Outputs items to the sides if the front is blocked.
 category: distribution
 research: pressurized-junction
 researchCost: [
-  manganese/180
+  manganese/160
 ]
 requirements: [
-  manganese/9
+  manganese/8
 ]
