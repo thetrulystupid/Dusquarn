@@ -1,13 +1,13 @@
 type: ItemTurret
 name: Dissipate
-description: Fires fast high-explosive rounds at nearby enemies. Cannot target at ground units.
+description: Fires fast high-explosive rounds at nearby flying enemies.
 size: 2
 targetAir: true
 targetGround: false
 health: 660
 outlineColor: 16192b
 inaccuracy: 5
-reload: 48
+reload: 44
 shootCone: 9
 rotateSpeed: 5.5
 range: 240
@@ -15,8 +15,8 @@ recoil: 3
 velocityRnd: 0.15
 shootY: 0.3
 researchCost: [
-  manganese/80
-  aluminium/55
+  manganese/85
+  aluminium/50
 ]
 ammoTypes: {
 	aluminium: {
