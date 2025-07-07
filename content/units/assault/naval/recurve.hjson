@@ -1,0 +1,39 @@
+type: naval
+name: Recurve
+description: Fires fast, homing missiles at nearby targets rapidly. Heavily armored.
+speed: 1.4
+armor: 3
+canDrown: false
+omniMovement: false
+faceTarget: false
+health: 460
+hitSize: 11
+  weapons: [
+    {
+        x: 2
+        y: -1.5
+        name: 11n-01-recurve-missile
+        mirror: true
+        alternate: true
+        rotate: true
+        reload: 65
+        recoil: 2
+        shootSound: 
+        bullet: {
+            type: MissileBulletType
+            speed: 4.5
+            backColor: 852f2f
+            frontColor: d45454
+            trailColor: d45454
+	          trailLength: 3
+	          trailWidth: 1.5
+            width: 5
+            height: 7
+            damage: 9
+            splashDamage: 12
+            splashDamageRadius: 28
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+    }
+]
