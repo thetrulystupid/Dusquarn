@@ -4,8 +4,8 @@ description: Sorts items. Allows one item through while outputting others to the
 category: distribution
 research: pressurized-router
 researchCost: [
-  manganese/120
+  manganese/160
 ]
 requirements: [
-  manganese/6
+  manganese/8
 ]
