@@ -1,9 +1,9 @@
 type: Floor
 name: Murky Water
-variants: 1
-speedMultiplier: 0.5
+variants: 0
+speedMultiplier: 0.67
 isLiquid: true
 liquidDrop: water
 cacheLayer: water
 supportsOverlay: true
-drownTime: 600
+drownTime: 0
