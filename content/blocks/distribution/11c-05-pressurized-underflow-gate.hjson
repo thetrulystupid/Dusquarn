@@ -6,7 +6,9 @@ category: distribution
 research: pressurized-overflow-gate
 researchCost: [
   manganese/180
+  aluminium/120
 ]
 requirements: [
   manganese/9
+  aluminium/6
 ]
