@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Wire
+description: Fires weak electric blasts from charged manganese. Good for temporary defenses.
+size: 1
+targetAir: true
+targetGround: true
+health: 390
+outlineColor: 16192b
+reload: 77
+shootCone: 9
+rotateSpeed: 2.5
+range: 105
+recoil: 1.5
+shootY: 0.3
+researchCost: [
+  manganese/1200
+]
+ammoTypes: {
+	manganese: {
+		type: LightningBulletType
+		damage: 7,
+    pierceArmor: true,
+		shootEffect: none,
+    lightningLength: 9
+    lightningColor: f1b5de
+		ammoMultiplier: 2,
+	},
+}
+requirements: [
+    manganese/40
+]
+coolantMultiplier: 0.8
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.15
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: monno-
+}
+category: turret
+shootSound: shootBig
+squareSprite: false
