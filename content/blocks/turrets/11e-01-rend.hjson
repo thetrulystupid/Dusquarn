@@ -15,13 +15,13 @@ recoil: 2
 velocityRnd: 0.3
 shootY: 0.3
 researchCost: [
-  manganese/35
+  manganese/60
 ]
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 11,
+		damage: 13,
 		width: 6
 		height: 9
 		frontColor: f1b5de
@@ -31,9 +31,7 @@ ammoTypes: {
 		trailWidth: 1.5
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
-		ammoMultiplier: 3,
-		pierce: true
-		pierceCap: 1
+		ammoMultiplier: 2,
    		knockback: 0.6
     		lifetime: 30
 	},
