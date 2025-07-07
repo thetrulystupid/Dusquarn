@@ -49,6 +49,10 @@ coolant: {
 shoot: {
    shots: 4
 }
+drawer: {
+  type: DrawTurret
+  basePrefix: monno-
+}
 category: turret
 shootSound: shootBig
 squareSprite: false
