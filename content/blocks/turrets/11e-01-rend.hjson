@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Rend
-description: Fires several piercing chunks of manganese at nearby enemies.
+description: Fires several heavy chunks of manganese at nearby enemies.
 size: 2
 targetAir: false
 targetGround: true
