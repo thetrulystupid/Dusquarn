@@ -5,8 +5,10 @@ description: Sorts items. Selected item is sent to the sides, others are output 
 category: distribution
 research: pressurized-gate
 researchCost: [
-  manganese/120
+  manganese/160
+  aluminium/120
 ]
 requirements: [
-  manganese/6
+  manganese/8
+  aluminium/6
 ]
