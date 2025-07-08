@@ -34,6 +34,6 @@ hitSize: 11
             splashDamageRadius: 28
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
-		},
 	},
+},
 ]
