@@ -1,12 +1,12 @@
 type: naval
 name: Recurve
 description: Fires fast, homing missiles at nearby targets rapidly. Heavily armored.
-speed: 1.4
+speed: 0.85
 armor: 3
 canDrown: false
 omniMovement: false
 faceTarget: false
-health: 460
+health: 530
 hitSize: 11
 outlineColor: 16192b
   weapons: [
