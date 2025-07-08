@@ -29,7 +29,7 @@ outlineColor: 16192b
             backColor: 852f2f
             frontColor: d45454
             trailColor: d45454
-	    weaveMag: 2.5
+	    weaveMag: 1.5
 	    weaveScale: 2.5
 	    trailLength: 3
 	    trailWidth: 1.5
