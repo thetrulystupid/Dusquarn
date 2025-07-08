@@ -1,7 +1,7 @@
 type: naval
 name: Recurve
 description: Fires fast, homing missiles at nearby targets rapidly. Heavily armored.
-speed: 0.85
+speed: 0.8
 armor: 3
 canDrown: false
 omniMovement: false
@@ -11,8 +11,8 @@ hitSize: 11
 outlineColor: 16192b
   weapons: [
     {
-        x: -2.5
-        y: -2
+        x: 3
+        y: -2.5
         name: 11n-01-recurve-missile
         mirror: true
         alternate: true
@@ -22,11 +22,10 @@ outlineColor: 16192b
         shootSound: missile
         shoot: {
 	  type: ShootHelix
-          shots: 1
          }
         bullet: {
             type: MissileBulletType
-            speed: 2.5
+            speed: 2
             backColor: 852f2f
             frontColor: d45454
             trailColor: d45454
