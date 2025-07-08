@@ -6,10 +6,10 @@ targetAir: true
 targetGround: true
 health: 390
 outlineColor: 16192b
-reload: 77
+reload: 55
 shootCone: 9
 rotateSpeed: 2.5
-range: 105
+range: 85
 recoil: 1.5
 shootY: 0.3
 researchCost: [
@@ -17,19 +17,23 @@ researchCost: [
 ]
 ammoTypes: {
 	manganese: {
-		type: LightningBulletType
-		damage: 7,
-    pierceArmor: true,
-		shootEffect: none,
-    lightningLength: 9
-    lightningColor: f1b5de
-		ammoMultiplier: 2,
+    	  type: LightningBulletType
+  	  damage: 18,
+	  pierce: true
+	  pierceCap: 2
+  	  pierceArmor: true,
+  	  lightningLength: 12
+  	  lightningColor: f1b5de
+   	  ammoMultiplier: 4,
+	  shootEffect: hitLancer
+	  hitEffect: hitLancer
+	  despawnEffect: none
 	},
 }
 requirements: [
     manganese/40
 ]
-coolantMultiplier: 0.8
+coolantMultiplier: 1.15
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -41,5 +45,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: shootBig
+shootSound: spark
 squareSprite: false
