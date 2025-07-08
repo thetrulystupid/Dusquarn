@@ -35,5 +35,4 @@ hitSize: 11
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
 	},
-},
 ]
