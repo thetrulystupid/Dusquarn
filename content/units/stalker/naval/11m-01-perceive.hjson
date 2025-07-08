@@ -8,6 +8,7 @@ omniMovement: false
 faceTarget: true
 health: 630
 hitSize: 11
+outlineColor: 16192b
   weapons: [
     {
         x: 0
@@ -29,7 +30,7 @@ hitSize: 11
 	trailWidth: 1
           width: 5
           height: 9
-          damage: 74
+          damage: 56
           buildingDamageMultiplier: 0.5
           lifetime: 22
           recoil: 2
