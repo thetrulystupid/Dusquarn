@@ -10,6 +10,7 @@ tier: 1
 research: 11a-01-core-trench
 researchCost: [
   manganese/20
+]
 requirements: [
   manganese/14
 ]
