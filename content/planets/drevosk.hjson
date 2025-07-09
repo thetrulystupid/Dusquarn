@@ -15,7 +15,9 @@ mesh: {
 lightColor: 5d3135
 bloom: true
 accessible: false
-parent: null
+parent: sun
+orbitRadius: 10000
+drawOrbit: false
 radius: 3.5
 tidalLock: true
 solarSystem: drevosk
