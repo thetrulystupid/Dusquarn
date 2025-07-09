@@ -4,7 +4,7 @@ description: Slowly pushes items forward. Can only hold a single item.
 category: distribution
 research: 11a-01-core-trench
 researchCost: [
-  manganese/20
+  manganese/10
 ]
 speed: 9
 health: 40
