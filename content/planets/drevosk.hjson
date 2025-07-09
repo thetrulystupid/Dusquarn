@@ -1,4 +1,5 @@
 name: Drevosk
+localizedName: Drevosk
 description: A lonely red dwarf drifting around.
 mesh: {
     type: SunMesh
