@@ -12,8 +12,9 @@ rotateSpeed: 2.5
 range: 85
 recoil: 1.5
 shootY: 0.3
+research: 11e-01-rend
 researchCost: [
-  manganese/1200
+  manganese/800
 ]
 ammoTypes: {
 	manganese: {
@@ -33,12 +34,12 @@ ammoTypes: {
 requirements: [
     manganese/40
 ]
-coolantMultiplier: 1.15
+coolantMultiplier: 1.70
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.15
+  amount: 0.04
 }
 drawer: {
   type: DrawTurret
