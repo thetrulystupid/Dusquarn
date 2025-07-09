@@ -6,9 +6,9 @@ category: distribution
 research: 11c-06-pressurized-gate
 researchCost: [
   manganese/160
-  aluminium/120
+  aluminium/80
 ]
 requirements: [
   manganese/8
-  aluminium/6
+  aluminium/4
 ]
