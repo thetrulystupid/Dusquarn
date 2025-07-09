@@ -40,12 +40,12 @@ ammoTypes: {
 requirements: [
     manganese/60
 ]
-coolantMultiplier: 0.8
+coolantMultiplier: 1.45
 coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.15
+  amount: 0.09
 }
 shoot: {
    shots: 4
