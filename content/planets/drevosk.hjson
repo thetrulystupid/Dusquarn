@@ -18,6 +18,6 @@ accessible: false
 parent: sun
 orbitRadius: 10000
 drawOrbit: false
-radius: 3.5
+radius: 4.5
 tidalLock: true
 solarSystem: drevosk
