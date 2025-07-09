@@ -11,7 +11,7 @@ hitSize: 11
 outlineColor: 16192b
   weapons: [
     {
-        x: -3
+        x: -3.5
         y: -3
         name: 11n-01-recurve-missile
         mirror: true
@@ -19,20 +19,20 @@ outlineColor: 16192b
         rotate: true
         reload: 51
         recoil: 2
+	rotationLimit: 120
         shootSound: missile
-        shoot: {
-	  type: ShootHelix
-         }
         bullet: {
             type: MissileBulletType
-            speed: 2
+            speed: 2.5
             backColor: 852f2f
             frontColor: d45454
             trailColor: d45454
 	    weaveMag: 1.5
 	    weaveScale: 2.5
-	    trailLength: 3
+	    trailLength: 3.5
 	    trailWidth: 1.5
+            homingDelay: 9
+            homingPower: 0.06
             width: 5
             height: 7
             damage: 11
