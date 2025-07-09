@@ -6,49 +6,49 @@ mesh: [
     //dull rock dark
     type: NoiseMesh
     planet: monnokromica
-    divisions: 6
+    divisions: 8
     seed: 17
     radius: 1.667
     color1: 303039
     color2: 202029
-    octaves: 3.7
-    persistence: 1.4
+    octaves: 3.5
+    persistence: 1.6
   }
   {
     //dull rock light
     type: NoiseMesh
     planet: monnokromica
-    divisions: 4
+    divisions: 6
     seed: 13
     radius: 1.25
     color1: 484853
     color2: 686877
-    octaves: 2.4
-    persistence: 1.24
+    octaves: 2.8
+    persistence: 1.4
   }
   {
     //water dark
     type: NoiseMesh
     planet: monnokromica
-    divisions: 3
+    divisions: 2
     seed: 5
     radius: 2.5
     color1: 3a3e5a
     color2: 454a6c
-    octaves: 2.4
-    persistence: 1.24
+    octaves: 2.1
+    persistence: 1.2
   }
   {
     //water light
     type: NoiseMesh
     planet: monnokromica
-    divisions: 5
+    divisions: 4
     seed: 9
     radius: 1.75
     color1: 494f7a
     color2: 4e5688
-    octaves: 2.4
-    persistence: 1.24
+    octaves: 1.4
+    persistence: 1
   }
 ]
 cloudMesh: [
@@ -100,7 +100,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 radius: 2
-minZoom: 2.4
+minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
