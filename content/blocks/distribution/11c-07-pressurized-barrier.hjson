@@ -3,7 +3,7 @@ name: Pressurized Barrier
 invert: true
 description: Sorts items. Selected item is sent to the sides, others are output forward.
 category: distribution
-research: pressurized-gate
+research: 11c-06-pressurized-gate
 researchCost: [
   manganese/160
   aluminium/120
