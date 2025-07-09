@@ -14,9 +14,10 @@ range: 240
 recoil: 3
 velocityRnd: 0.15
 shootY: 0.3
+research: 11e-01-rend
 researchCost: [
-  manganese/85
-  aluminium/50
+  manganese/800
+  aluminium/550
 ]
 ammoTypes: {
 	aluminium: {
@@ -34,15 +35,15 @@ ammoTypes: {
 		trailColor: bebebe
 		trailLength: 3
 		trailWidth: 1
-		shootEffect: shootSmall,
-		smokeEffect: shootSmallSmoke,
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 4,
    		lifetime: 28
 	},
 }
 requirements: [
-    manganese/800
-    aluminium/550
+    manganese/80
+    aluminium/55
 ]
 coolantMultiplier: 0.8
 coolant: {
