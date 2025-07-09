@@ -34,7 +34,7 @@ ammoTypes: {
 requirements: [
     manganese/40
 ]
-coolantMultiplier: 1.70
+coolantMultiplier: 1.7
 coolant: {
   type: ConsumeCoolant
   allowGas: true
