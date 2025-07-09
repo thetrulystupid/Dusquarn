@@ -11,13 +11,13 @@ hitSize: 11
 outlineColor: 16192b
   weapons: [
     {
-        x: 3
-        y: -2.5
+        x: -3
+        y: -3
         name: 11n-01-recurve-missile
         mirror: true
         alternate: true
         rotate: true
-        reload: 59
+        reload: 51
         recoil: 2
         shootSound: missile
         shoot: {
