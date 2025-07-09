@@ -2,7 +2,7 @@ type: OverflowGate
 name: Pressurized Overflow Gate
 description: Outputs items to the sides if the front is blocked.
 category: distribution
-research: pressurized-junction
+research: 11c-03-pressurized-router
 researchCost: [
   manganese/160
 ]
