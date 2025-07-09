@@ -7,6 +7,9 @@ squareSprite: false
 warmupSpeed: 0.009
 rotateSpeed: 1.8
 tier: 1
+research: 11a-01-core-trench
+researchCost: [
+  manganese/20
 requirements: [
   manganese/14
 ]
