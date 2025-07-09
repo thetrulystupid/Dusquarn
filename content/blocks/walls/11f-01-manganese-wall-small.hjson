@@ -4,6 +4,10 @@ description: Blob of manganese designed to defend structures.
 size: 1
 health: 360
 squareSprite: false
+research: 11a-01-core-trench
+researchCost: [
+  manganese/200
+]
 requirements: [
   manganese/8
 ]
