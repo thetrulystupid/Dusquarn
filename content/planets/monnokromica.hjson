@@ -62,7 +62,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.2
    scl: 1
-   thresh: 0.3
+   thresh: 0.7
   }
   {
    type: HexSkyMesh
@@ -74,7 +74,7 @@ cloudMesh: [
    octaves: 3
    persistence: 0.4
    scl: 0.75
-   thresh: 0.6
+   thresh: 0.9
   }
 ]
 generator: {
@@ -99,8 +99,9 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 3
-minZoom: 1.5
+orbitRadius: 5
+radius: 3.5
+minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
