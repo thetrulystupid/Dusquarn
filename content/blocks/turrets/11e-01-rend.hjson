@@ -14,6 +14,7 @@ range: 130
 recoil: 2
 velocityRnd: 0.3
 shootY: 0.3
+research: 11a-01-core-trench
 researchCost: [
   manganese/60
 ]
