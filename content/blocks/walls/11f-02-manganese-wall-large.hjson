@@ -4,6 +4,10 @@ description: Large blob of manganese designed to defend structures.
 size: 2
 health: 1440
 squareSprite: false
+research: 11f-01-manganese-wall-small
+researchCost: [
+  manganese/800
+]
 requirements: [
   manganese/32
 ]
