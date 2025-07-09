@@ -117,8 +117,8 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: 11a-01-core-trench
-parent: sun
-solarSystem: sun
+parent: drevosk
+solarSystem: drevosk
 launchCandidates: []
 itemWhitelist: [
   "manganese",
