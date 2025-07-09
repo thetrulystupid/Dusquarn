@@ -23,9 +23,9 @@ ammoTypes: {
 	  pierce: true
 	  pierceCap: 2
   	  pierceArmor: true,
-  	  lightningLength: 12
+  	  lightningLength: 13
   	  lightningColor: f1b5de
-   	  ammoMultiplier: 4,
+   	  ammoMultiplier: 6,
 	  shootEffect: hitLancer
 	  hitEffect: hitLancer
 	  despawnEffect: none
