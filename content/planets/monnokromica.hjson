@@ -20,9 +20,33 @@ mesh: [
     planet: monnokromica
     divisions: 4
     seed: 13
-    radius: 1.334
+    radius: 1.25
     color1: 484853
     color2: 686877
+    octaves: 2.4
+    persistence: 1.24
+  }
+  {
+    //water dark
+    type: NoiseMesh
+    planet: monnokromica
+    divisions: 3
+    seed: 5
+    radius: 2.5
+    color1: 3a3e5a
+    color2: 454a6c
+    octaves: 2.4
+    persistence: 1.24
+  }
+  {
+    //water light
+    type: NoiseMesh
+    planet: monnokromica
+    divisions: 5
+    seed: 9
+    radius: 1.75
+    color1: 494f7a
+    color2: 4e5688
     octaves: 2.4
     persistence: 1.24
   }
@@ -32,7 +56,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: monnokromica
    speed: 1.20
-   radius: 0.085
+   radius: 0.07
    divisions: 6
    color: 666677
    octaves: 3
@@ -44,24 +68,12 @@ cloudMesh: [
    type: HexSkyMesh
    planet: monnokromica
    speed: 1.00
-   radius: 0.1
+   radius: 0.07
    divisions: 6
    color: 8787a2
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: monnokromica
-   speed: 0.8
-   radius: 0.115
-   divisions: 6
-   color: b2b2d7
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
    thresh: 0.6
   }
 ]
@@ -87,7 +99,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.6
+radius: 2
 minZoom: 2.4
 drawOrbit: true
 atmosphereRadIn: 0
