@@ -1,0 +1,21 @@
+name: Drevosk
+description: A lonely red dwarf drifting around.
+mesh: {
+    type: SunMesh
+    planet: drevosk
+	divisions: 4
+	octaves: 4
+	persistence: 1.2
+	scl: 1
+	pow: 1
+	mag: 0.67
+	colorScale: 1.2
+	    colors: [970815, ac3944, c16b73, d59ca1, eaced0, ffffff]
+}
+lightColor: 5d3135
+bloom: true
+accessible: false
+parent: null
+radius: 3.5
+tidalLock: true
+solarSystem: drevosk
