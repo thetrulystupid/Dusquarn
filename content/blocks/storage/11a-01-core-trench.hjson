@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Trench
-description: The most important building, if this dies, the sector is lost. Stores a small amount of items.
+description: Core of your base. If destroyed, the sector is lost. Lightly armored and can store a small amount of items.
 requirements: [
   manganese/800
   aluminium/600
