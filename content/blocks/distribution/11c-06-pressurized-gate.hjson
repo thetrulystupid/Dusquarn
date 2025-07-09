@@ -2,7 +2,7 @@ type: Sorter
 name: Pressurized Gate
 description: Sorts items. Allows one item through while outputting others to the sides.
 category: distribution
-research: pressurized-router
+research: 11c-02-pressurized-junction
 researchCost: [
   manganese/160
 ]
