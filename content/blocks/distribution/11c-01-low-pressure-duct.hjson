@@ -2,6 +2,7 @@ type: Duct
 name: Low Pressure Duct
 description: Slowly pushes items forward. Can only hold a single item.
 category: distribution
+research: 11a-01-core-trench
 researchCost: [
   manganese/20
 ]
