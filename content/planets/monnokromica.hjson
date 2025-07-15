@@ -99,7 +99,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-orbitRadius: 50
+orbitRadius: 35
 radius: 2
 minZoom: 0.8
 drawOrbit: true
@@ -110,7 +110,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: 222b42
+atmosphereColor: 8a909e
 iconColor: 303039
 hasAtmosphere: true
 allowWaveSimulation: true
