@@ -16,7 +16,7 @@ unitCapModifier: 12
 alwaysUnlocked: true
 category: effect
 research: {
-  planet: monnokromica
+  planet: dusquarn
   root: true
-  name: Monnokromica
+  name: Dusquarn
 }
