@@ -1,11 +1,11 @@
-localizedName: Monnokromica
-description: A flooded, dull and rocky wasteland, brimming with metals. Though the civillians don't seem to appreciate your presence.
+localizedName: Dusquarn
+description: A small planet made of dull and rocky shores, brimming with metals. Though the civillians don't seem to appreciate your presence.
 alwaysUnlocked: true
 mesh: [
  {
     //dull rock dark
     type: NoiseMesh
-    planet: monnokromica
+    planet: dusquarn
     divisions: 6
     seed: 17
     radius: 1.8
@@ -17,7 +17,7 @@ mesh: [
   {
     //dull rock light
     type: NoiseMesh
-    planet: monnokromica
+    planet: dusquarn
     divisions: 6
     seed: 13
     radius: 1.9
@@ -29,7 +29,7 @@ mesh: [
   {
     //water dark
     type: NoiseMesh
-    planet: monnokromica
+    planet: dusquarn
     divisions: 6
     seed: 5
     radius: 1.6
@@ -41,7 +41,7 @@ mesh: [
   {
     //water light
     type: NoiseMesh
-    planet: monnokromica
+    planet: dusquarn
     divisions: 6
     seed: 9
     radius: 1.7
@@ -54,7 +54,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: monnokromica
+   planet: dusquarn
    speed: 1.20
    radius: 1.8
    divisions: 6
@@ -66,7 +66,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: monnokromica
+   planet: dusquarn
    speed: 1.00
    radius: 2
    divisions: 6
