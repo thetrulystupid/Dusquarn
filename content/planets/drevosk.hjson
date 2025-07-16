@@ -13,7 +13,7 @@ mesh: {
 	colorScale: 1.2
 	    colors: [970815, ac3944, c16b73, d59ca1, eaced0, ffffff]
 }
-lightColor: 5d3135
+lightColor: ffffff
 bloom: true
 accessible: false
 parent: sun
