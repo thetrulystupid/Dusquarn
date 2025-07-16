@@ -13,7 +13,7 @@ mesh: [
     color2: 202029
     octaves: 3.5
     persistence: 1.6
-    mag: 1.5
+    mag: 1.35
   }
   {
     //dull rock light
@@ -26,7 +26,7 @@ mesh: [
     color2: 686877
     octaves: 2.8
     persistence: 1.4
-    mag: 1.7
+    mag: 1.55
   }
   {
     //water dark
@@ -36,10 +36,10 @@ mesh: [
     seed: 5
     radius: 1.6
     color1: 3a3e5a
-    color2: 454a6c
+    color2: 3a3e5a
     octaves: 2.1
     persistence: 1.2
-    mag: 1.1
+    mag: 0.65
   }
   {
     //water light
@@ -49,10 +49,10 @@ mesh: [
     seed: 9
     radius: 1.7
     color1: 494f7a
-    color2: 4e5688
+    color2: 494f7a
     octaves: 1.4
     persistence: 1
-    mag: 1.2
+    mag: 0.4
   }
 ]
 cloudMesh: [
