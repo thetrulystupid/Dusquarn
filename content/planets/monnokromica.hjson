@@ -100,7 +100,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 orbitRadius: 35
-radius: 2
+radius: 3
 minZoom: 0.8
 drawOrbit: true
 accessible: true
