@@ -8,7 +8,7 @@ mesh: [
     planet: monnokromica
     divisions: 6
     seed: 17
-    radius: 2.2
+    radius: 1.8
     color1: 303039
     color2: 202029
     octaves: 3.5
@@ -20,7 +20,7 @@ mesh: [
     planet: monnokromica
     divisions: 6
     seed: 13
-    radius: 2.3
+    radius: 1.9
     color1: 484853
     color2: 686877
     octaves: 2.8
@@ -32,7 +32,7 @@ mesh: [
     planet: monnokromica
     divisions: 6
     seed: 5
-    radius: 2
+    radius: 1.6
     color1: 3a3e5a
     color2: 454a6c
     octaves: 2.1
@@ -44,7 +44,7 @@ mesh: [
     planet: monnokromica
     divisions: 6
     seed: 9
-    radius: 2.1
+    radius: 1.7
     color1: 494f7a
     color2: 4e5688
     octaves: 1.4
@@ -100,7 +100,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 orbitRadius: 35
-radius: 3
+radius: 2
 minZoom: 0.8
 drawOrbit: true
 accessible: true
