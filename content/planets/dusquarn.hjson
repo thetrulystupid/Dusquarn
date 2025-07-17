@@ -35,7 +35,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: dusquarn
    speed: 1.20
-   radius: 0.15
+   radius: 0.1
    divisions: 6
    color: 666677
    octaves: 3
@@ -47,7 +47,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: dusquarn
    speed: 1.00
-   radius: 0.25
+   radius: 0.15
    divisions: 6
    color: 8787a2
    octaves: 3
