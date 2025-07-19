@@ -1,0 +1,67 @@
+type: ItemTurret
+name: Fume
+description: Fires large amounts of slow, homing bullets in bursts towards nearby enemies.
+size: 2
+targetAir: true
+targetGround: true
+health: 660
+outlineColor: 16192b
+inaccuracy: 9
+reload: 55
+shoot: {
+  shots: 6
+  shotDelay: 3
+}
+shootCone: 12
+rotateSpeed: 3
+range: 190
+recoil: 2
+velocityRnd: 0.1
+shootY: 0.3
+research: 11e-02-dissipate
+researchCost: [
+  manganese/1400
+  aluminium/900
+]
+ammoTypes: {
+	aluminium: {
+		type: BasicBulletType
+		speed: 3,
+		damage: 18,
+		hitEffect: hitBulletBig
+		despawnEffect: hitBulletBig
+		width: 6
+		height: 8
+		frontColor: bebebe
+		backColor: 818181
+		trailColor: bebebe
+		trailLength: 2
+		trailWidth: 1
+    weaveMag: 1
+	  weaveScale: 2
+    homingDelay: 12
+    homingPower: 0.03
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
+		ammoMultiplier: 4,
+   		lifetime: 48
+	},
+}
+requirements: [
+    manganese/140
+    aluminium/90
+]
+coolantMultiplier: 1.55
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.14
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: monno-
+}
+category: turret
+shootSound: artillery
+squareSprite: false
