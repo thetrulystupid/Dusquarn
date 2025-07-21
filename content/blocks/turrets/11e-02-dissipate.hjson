@@ -45,12 +45,11 @@ requirements: [
     manganese/80
     aluminium/55
 ]
-coolantMultiplier: 1.4
 coolant: {
   type: ConsumeCoolant
-  allowGas: true
+  allowGas: false
   allowLiquid: true
-  amount: 0.14
+  amount: 0.33
 }
 drawer: {
   type: DrawTurret
