@@ -38,12 +38,11 @@ ammoTypes: {
 requirements: [
     manganese/40
 ]
-coolantMultiplier: 1.7
 coolant: {
   type: ConsumeCoolant
-  allowGas: true
+  allowGas: false
   allowLiquid: true
-  amount: 0.04
+  amount: 0.14
 }
 drawer: {
   type: DrawTurret
