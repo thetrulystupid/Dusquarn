@@ -37,7 +37,7 @@ ammoTypes: {
 		trailWidth: 1
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-		ammoMultiplier: 4,
+		ammoMultiplier: 3,
    		lifetime: 28
 	},
 }
@@ -49,7 +49,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: false
   allowLiquid: true
-  amount: 0.33
+  amount: 0.22
 }
 drawer: {
   type: DrawTurret
