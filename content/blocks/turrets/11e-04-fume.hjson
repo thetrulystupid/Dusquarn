@@ -7,17 +7,17 @@ targetGround: true
 health: 660
 outlineColor: 16192b
 inaccuracy: 9
-reload: 55
+reload: 77
 shoot: {
   shots: 6
-  shotDelay: 3
+  shotDelay: 5
 }
 shootCone: 12
 rotateSpeed: 3
 range: 190
 recoil: 2
-velocityRnd: 0.1
-shootY: 0.3
+velocityRnd: 0.2
+shootY: 0.5
 research: 11e-02-dissipate
 researchCost: [
   manganese/1400
@@ -30,28 +30,28 @@ ammoTypes: {
 		damage: 18,
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
-		width: 6
-		height: 8
+		width: 13
+		height: 11
 		frontColor: bebebe
 		backColor: 818181
 		trailColor: bebebe
-		trailLength: 2
-		trailWidth: 1
-    weaveMag: 1
-	  weaveScale: 2
-    homingDelay: 12
-    homingPower: 0.03
+		trailLength: 3
+		trailWidth: 2
+  		weaveMag: 2.5
+		weaveScale: 2.5
+  		homingDelay: 12
+   		homingPower: 0.03
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 4,
-   		lifetime: 48
+   		lifetime: 62
 	},
 }
 requirements: [
     manganese/140
     aluminium/90
 ]
-coolantMultiplier: 1.55
+coolantMultiplier: 2.4
 coolant: {
   type: ConsumeCoolant
   allowGas: true
