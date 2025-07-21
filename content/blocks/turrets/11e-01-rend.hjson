@@ -45,7 +45,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.09
+  amount: 0.1
 }
 shoot: {
    shots: 4
