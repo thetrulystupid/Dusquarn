@@ -43,7 +43,7 @@ ammoTypes: {
    		homingPower: 0.02
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-		ammoMultiplier: 4,
+		ammoMultiplier: 6,
    		lifetime: 66
 	},
 }
