@@ -55,7 +55,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: false
   allowLiquid: true
-  amount: 0.48
+  amount: 0.22
 }
 drawer: {
   type: DrawTurret
