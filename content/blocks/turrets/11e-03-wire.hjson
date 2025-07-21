@@ -12,6 +12,10 @@ rotateSpeed: 2.5
 range: 85
 recoil: 1.5
 shootY: 0.3
+shoot: {
+  shots: 2
+  shotDelay: 9
+}
 research: 11e-01-rend
 researchCost: [
   manganese/800
