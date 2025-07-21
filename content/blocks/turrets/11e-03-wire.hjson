@@ -6,7 +6,7 @@ targetAir: true
 targetGround: true
 health: 390
 outlineColor: 16192b
-reload: 55
+reload: 59
 shootCone: 9
 rotateSpeed: 2.5
 range: 85
@@ -14,7 +14,7 @@ recoil: 1.5
 shootY: 0.3
 shoot: {
   shots: 2
-  shotDelay: 9
+  shotDelay: 12
 }
 research: 11e-01-rend
 researchCost: [
