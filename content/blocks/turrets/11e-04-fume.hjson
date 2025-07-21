@@ -10,7 +10,7 @@ inaccuracy: 11
 reload: 77
 shoot: {
   shots: 6
-  shotDelay: 7
+  shotDelay: 8
 }
 shootCone: 15
 rotateSpeed: 3
@@ -27,7 +27,7 @@ ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
 		speed: 3,
-		damage: 14,
+		damage: 16,
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
@@ -36,9 +36,9 @@ ammoTypes: {
 		backColor: 818181
 		trailColor: bebebe
 		trailLength: 3
-		trailWidth: 3
+		trailWidth: 2.5
   		weaveMag: 2
-		weaveScale: 3
+		weaveScale: 4
   		homingDelay: 12
    		homingPower: 0.02
 		shootEffect: shootBig,
