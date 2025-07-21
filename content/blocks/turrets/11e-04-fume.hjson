@@ -10,14 +10,14 @@ inaccuracy: 9
 reload: 77
 shoot: {
   shots: 6
-  shotDelay: 5
+  shotDelay: 7
 }
 shootCone: 12
 rotateSpeed: 3
 range: 190
 recoil: 2
 velocityRnd: 0.2
-shootY: 0.5
+shootY: 0.7
 research: 11e-02-dissipate
 researchCost: [
   manganese/1400
@@ -30,28 +30,28 @@ ammoTypes: {
 		damage: 18,
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
-		width: 13
-		height: 11
+		width: 10
+		height: 13
 		frontColor: bebebe
 		backColor: 818181
 		trailColor: bebebe
 		trailLength: 3
 		trailWidth: 2
-  		weaveMag: 2.5
-		weaveScale: 2.5
+  		weaveMag: 3
+		weaveScale: 2
   		homingDelay: 12
    		homingPower: 0.03
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 4,
-   		lifetime: 62
+   		lifetime: 66
 	},
 }
 requirements: [
     manganese/140
     aluminium/90
 ]
-coolantMultiplier: 2.4
+coolantMultiplier: 3.3
 coolant: {
   type: ConsumeCoolant
   allowGas: true
