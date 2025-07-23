@@ -6,13 +6,12 @@ targetAir: true
 targetGround: false
 health: 660
 outlineColor: 16192b
-inaccuracy: 5
+inaccuracy: 3
 reload: 44
-shootCone: 9
-rotateSpeed: 5.5
+shootCone: 7
+rotateSpeed: 6
 range: 240
 recoil: 3
-velocityRnd: 0.15
 shootY: 0.3
 research: 11e-01-rend
 researchCost: [
