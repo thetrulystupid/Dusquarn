@@ -7,7 +7,7 @@ targetGround: true
 health: 660
 outlineColor: 16192b
 inaccuracy: 11
-reload: 77
+reload: 88
 shoot: {
   shots: 6
   shotDelay: 8
@@ -37,7 +37,7 @@ ammoTypes: {
 		trailColor: bebebe
 		trailLength: 3
 		trailWidth: 2.5
-  		weaveMag: 2
+  		weaveMag: 2.5
 		weaveScale: 4
   		homingDelay: 12
    		homingPower: 0.02
