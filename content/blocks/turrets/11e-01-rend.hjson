@@ -23,13 +23,13 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 5,
 		damage: 12,
-		width: 6
-		height: 9
+		width: 10
+		height: 14
 		frontColor: f1b5de
 		backColor: b77aa4
 		trailColor: f1b5de
-		trailLength: 2.5
-		trailWidth: 1.5
+		trailLength: 3
+		trailWidth: 2
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 2,
