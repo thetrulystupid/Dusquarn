@@ -1,16 +1,16 @@
 type: ItemTurret
 name: Rend
-description: Fires several heavy chunks of manganese at nearby enemies.
+description: Fires several heavy chunks of manganese at nearby enemies. Struggles against armor.
 size: 2
 targetAir: false
 targetGround: true
 health: 660
 outlineColor: 16192b
 inaccuracy: 11
-reload: 77
+reload: 66
 shootCone: 11
 rotateSpeed: 2.5
-range: 130
+range: 110
 recoil: 2
 velocityRnd: 0.3
 shootY: 0.3
@@ -22,7 +22,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 12,
+		damage: 11,
 		width: 10
 		height: 14
 		frontColor: f1b5de
