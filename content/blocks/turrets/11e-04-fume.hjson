@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fume
-description: Fires large amounts of slow, homing bullets in bursts towards nearby enemies.
+description: Fires large amounts of slow, homing bullets in bursts towards nearby enemies. Struggles against fast units.
 size: 2
 targetAir: true
 targetGround: true
