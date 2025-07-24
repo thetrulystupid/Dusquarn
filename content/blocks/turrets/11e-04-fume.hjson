@@ -6,14 +6,14 @@ targetAir: true
 targetGround: true
 health: 660
 outlineColor: 16192b
-inaccuracy: 11
+inaccuracy: 7
 reload: 88
 shoot: {
   shots: 6
-  shotDelay: 8
+  shotDelay: 7
 }
-shootCone: 15
-rotateSpeed: 3
+shootCone: 10
+rotateSpeed: 3.5
 range: 190
 recoil: 2
 velocityRnd: 0.3
@@ -26,7 +26,7 @@ researchCost: [
 ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
-		speed: 3,
+		speed: 3.5,
 		damage: 16,
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
@@ -40,7 +40,7 @@ ammoTypes: {
   		weaveMag: 2.5
 		weaveScale: 4
   		homingDelay: 12
-   		homingPower: 0.02
+   		homingPower: 0.01
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 6,
