@@ -10,7 +10,7 @@ inaccuracy: 3
 reload: 44
 shootCone: 7
 rotateSpeed: 6
-range: 240
+range: 260
 recoil: 3
 shootY: 0.3
 research: 11e-01-rend
@@ -22,13 +22,13 @@ ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
 		speed: 9,
-		damage: 26,
-    		splashDamage: 26
-    		splashDamageRadius: 29
+		damage: 28,
+    		splashDamage: 28
+    		splashDamageRadius: 28
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
-		width: 5
-		height: 11
+		width: 8
+		height: 12
 		frontColor: bebebe
 		backColor: 818181
 		trailColor: bebebe
@@ -37,7 +37,7 @@ ammoTypes: {
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 3,
-   		lifetime: 28
+   		lifetime: 33
 	},
 }
 requirements: [
