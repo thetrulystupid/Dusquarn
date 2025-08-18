@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Mangalumin Forge
+description: Melts Manganese and Aluminium together to produce Mangalumin.
+size: 2
+craftTime: 120
+itemCapacity: 20
+squareSprite: false
+research: 11a-01-core-trench
+researchCost: [
+  manganese/800
+  aluminium/600
+]
+consumes: {
+  items: [
+    manganese/2
+    aluminium/1
+  ]
+}
+outputItem: mangalumin-alloy/2
+category: crafting
+requirements: [
+    manganese/80
+    aluminium/60
+]
+craftEffect: drillSteam
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
