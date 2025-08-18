@@ -1,0 +1,8 @@
+name: Mangalumin
+description: "Malleable and durable metal alloy used in slightly more advanced buildings."
+hardness: 1.2
+cost: 1.1
+alwaysUnlocked: true
+color: 7f3c88
+research: aluminium
+hiddenOnPlanets: [serpulo, erekir]
