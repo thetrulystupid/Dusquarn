@@ -76,7 +76,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-startSector: 9
+startSector: 2
 orbitSpacing: 1
 orbitRadius: 39
 radius: 1
@@ -100,5 +100,6 @@ solarSystem: drevosk
 launchCandidates: []
 itemWhitelist: [
   "manganese",
-  "aluminium"
+  "aluminium",
+  "mangalumin-alloy"
 ]
