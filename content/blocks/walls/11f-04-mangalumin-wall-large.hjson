@@ -1,0 +1,15 @@
+type: Wall
+name: Large Mangalumin Wall
+description: Huge brick of Mangalumin for protecting other structures.
+size: 2
+health: 1600
+armor: 2
+squareSprite: false
+research: 11f-03-mangalumin-wall-small
+researchCost: [
+  mangalumin-alloy/1600
+]
+requirements: [
+  mangalumin-alloy/32
+]
+category: defense
