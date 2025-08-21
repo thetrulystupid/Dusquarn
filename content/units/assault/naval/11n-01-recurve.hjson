@@ -17,7 +17,7 @@ outlineColor: 16192b
         mirror: true
         alternate: true
         rotate: true
-        reload: 51
+        reload: 42
         recoil: 2
 	rotationLimit: 120
         shootSound: missile
