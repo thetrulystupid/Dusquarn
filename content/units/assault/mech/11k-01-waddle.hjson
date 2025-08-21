@@ -9,12 +9,12 @@ armor: 2
 hitSize: 11
 outlineColor: 16192b
 researchCost: [
-  aluminium/2400
-  sand/150
+  aluminium/1250
+  sand/1000
 ]
   weapons: [
     {
-        x: 4
+        x: 5
         y: 0
         name: 11k-01-waddle-launcher
         mirror: true
