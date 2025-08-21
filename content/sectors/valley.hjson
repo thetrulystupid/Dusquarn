@@ -1,4 +1,4 @@
-captureWave: 5
+captureWave: 10
 isWaves: true
 planet: dusquarn
 sector: 2
@@ -6,4 +6,4 @@ research: 11a-01-core-trench
 difficulty: 1
 alwaysUnlocked: true
 localizedName: Valley
-description: Optimal spot to begin industrialization, despite the lacking resources. Gather and research Manganese before continuing.
+description: Optimal spot to begin industrialization despite the lacking resources. Gather and research Manganese before continuing.
