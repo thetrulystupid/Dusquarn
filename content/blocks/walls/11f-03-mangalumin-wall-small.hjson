@@ -1,0 +1,15 @@
+type: Wall
+name: Mangalumin Wall
+description: Durable brick of Mangalumin to protect other buildings.
+size: 1
+health: 440
+armor: 1
+squareSprite: false
+research: 11f-2-manganese-wall-large
+researchCost: [
+  mangalumin/400
+]
+requirements: [
+  mangalumin-alloy/8
+]
+category: defense
