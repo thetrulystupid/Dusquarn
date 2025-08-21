@@ -7,7 +7,7 @@ armor: 1
 squareSprite: false
 research: 11f-2-manganese-wall-large
 researchCost: [
-  mangalumin/400
+  mangalumin-alloy/400
 ]
 requirements: [
   mangalumin-alloy/8
