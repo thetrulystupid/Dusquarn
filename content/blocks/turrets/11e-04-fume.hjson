@@ -1,33 +1,40 @@
 type: ItemTurret
 name: Fume
-description: Fires large amounts of slow, homing bullets in bursts towards nearby enemies. Struggles against fast units.
+description: Fires large amounts of slow, heavy bullets in bursts at nearby enemies. Struggles against fast units.
 size: 2
 targetAir: true
 targetGround: true
 health: 660
 outlineColor: 16192b
-inaccuracy: 7
-reload: 88
+inaccuracy: 6
+reload: 99
 shoot: {
   shots: 6
   shotDelay: 7
 }
-shootCone: 10
+shootCone: 9
 rotateSpeed: 3.5
 range: 190
 recoil: 2
 velocityRnd: 0.3
 shootY: 1
-research: 11e-02-dissipate
+research: {
+   parent: 11f-02-dissipate
+   objectives: [
+      mangalumin-alloy,
+      11f-02-dissipate
+   ]
+}
 researchCost: [
-  manganese/1400
-  aluminium/900
+  manganese/1600
+  aluminium/1100
+  mangalumin-alloy/800
 ]
 ammoTypes: {
-	aluminium: {
+	mangalumin-alloy: {
 		type: BasicBulletType
 		speed: 3.5,
-		damage: 16,
+		damage: 22,
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
@@ -39,8 +46,6 @@ ammoTypes: {
 		trailWidth: 2.5
   		weaveMag: 2.5
 		weaveScale: 4
-  		homingDelay: 12
-   		homingPower: 0.01
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 6,
@@ -48,8 +53,9 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/140
-    aluminium/90
+    manganese/80
+    aluminium/55
+	mangalumin-alloy/40
 ]
 coolant: {
   type: ConsumeCoolant
