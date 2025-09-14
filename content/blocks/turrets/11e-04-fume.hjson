@@ -19,10 +19,10 @@ recoil: 2
 velocityRnd: 0.3
 shootY: 1
 research: {
-   parent: 11f-02-dissipate
+   parent: 11e-02-dissipate
    objectives: [
       mangalumin-alloy,
-      11f-02-dissipate
+      11e-02-dissipate
    ]
 }
 researchCost: [
