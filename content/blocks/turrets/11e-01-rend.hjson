@@ -1,19 +1,19 @@
 type: ItemTurret
 name: Rend
-description: Fires several heavy chunks of manganese at nearby enemies. Struggles against armor.
+description: Fires manganese bullets at enemies. Nothing special.
 size: 2
-targetAir: false
+targetAir: true
 targetGround: true
-health: 660
+health: 360
 outlineColor: 16192b
-inaccuracy: 11
-reload: 66
-shootCone: 11
+inaccuracy: 0
+reload: 36
+shootCone: 5
 rotateSpeed: 2.5
-range: 110
-recoil: 2
-velocityRnd: 0.3
-shootY: 0.3
+range: 180
+recoil: 1
+velocityRnd: 0.05
+shootY: 0.05
 research: 11a-01-core-trench
 researchCost: [
   manganese/60
@@ -22,25 +22,24 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 11,
-		width: 10
-		height: 14
+		damage: 24,
+		width: 8
+		height: 12
 		frontColor: f1b5de
-		backColor: b77aa4
+		backColor: d77bba
 		trailColor: f1b5de
-		trailLength: 3
-		trailWidth: 2
+		trailLength: 4
+		trailWidth: 1
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 2,
-   		knockback: 0.6
-    		lifetime: 30
+    	lifetime: 40
 	},
 }
 requirements: [
     manganese/60
 ]
-coolantMultiplier: 1.45
+coolantMultiplier: 1.4
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -48,7 +47,9 @@ coolant: {
   amount: 0.1
 }
 shoot: {
-   shots: 4
+  type: ShootAlternate
+  spread: 2.5
+  shotDelay: 2
 }
 drawer: {
   type: DrawTurret
