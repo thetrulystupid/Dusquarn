@@ -23,7 +23,7 @@ researchCost: [
 ammoTypes: {
 	manganese: {
     	  type: LightningBulletType
-  	  damage: 18,
+  	  damage: 11,
 	  pierce: true
 	  pierceCap: 2
   	  pierceArmor: true,
