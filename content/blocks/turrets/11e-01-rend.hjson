@@ -8,12 +8,10 @@ health: 360
 outlineColor: 16192b
 inaccuracy: 0
 reload: 36
-shootCone: 5
+shootCone: 3
 rotateSpeed: 2.5
 range: 180
 recoil: 1
-velocityRnd: 0.05
-shootY: 0.05
 research: 11a-01-core-trench
 researchCost: [
   manganese/60
@@ -22,7 +20,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 24,
+		damage: 19,
 		width: 8
 		height: 12
 		frontColor: f1b5de
@@ -39,7 +37,7 @@ ammoTypes: {
 requirements: [
     manganese/60
 ]
-coolantMultiplier: 1.4
+coolantMultiplier: 1.6
 coolant: {
   type: ConsumeCoolant
   allowGas: true
@@ -48,7 +46,7 @@ coolant: {
 }
 shoot: {
   type: ShootAlternate
-  spread: 2.5
+  spread: 4
   shotDelay: 2
 }
 drawer: {
