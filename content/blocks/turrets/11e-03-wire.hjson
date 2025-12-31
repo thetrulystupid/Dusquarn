@@ -49,5 +49,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: spark
+shootSound: shootArc
 squareSprite: false
