@@ -68,5 +68,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: shootArtillerySap
+shootSound: shootArtillerySmall
 squareSprite: false
