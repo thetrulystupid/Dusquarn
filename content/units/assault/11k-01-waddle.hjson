@@ -8,6 +8,7 @@ health: 330
 armor: 2
 hitSize: 11
 outlineColor: 16192b
+mechLegColor: 16192b
 researchCost: [
   aluminium/1250
   sand/1000
