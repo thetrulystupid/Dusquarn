@@ -4,7 +4,7 @@ description: Fires alternating explosives at nearby targets. Well armored but sl
 speed: 0.55
 targetAir: false
 flying: false
-health: 390
+health: 330
 armor: 2
 hitSize: 11
 outlineColor: 16192b
@@ -20,10 +20,10 @@ researchCost: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 77
+        reload: 74
         recoil: 2
 	top: false
-	shootSound: bang
+	shootSound: shootArtillerySmall
         	bullet: {
         		type: BasicBulletType
         		speed: 2
@@ -31,12 +31,11 @@ researchCost: [
 			frontColor: ffa665
 			trailColor: ffa665
 			trailLength: 3
-			trailWidth: 2
-        		width: 10
-        		height: 7
-        		damage: 26
-        		splashDamage: 26
-        		splashDamageRadius: 29
+			trailWidth: 1.5
+        		width: 8
+        		height: 6
+        		splashDamage: 36
+        		splashDamageRadius: 26
 			hitEffect: blastExplosion
 			despawnEffect: blastExplosion
         }
