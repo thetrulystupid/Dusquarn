@@ -7,11 +7,12 @@ targetGround: true
 health: 360
 outlineColor: 16192b
 inaccuracy: 0
-reload: 36
+reload: 44
 shootCone: 3
 rotateSpeed: 2.5
-range: 180
+range: 140
 recoil: 1
+shootY: 0.5
 research: 11a-01-core-trench
 researchCost: [
   manganese/60
@@ -31,7 +32,7 @@ ammoTypes: {
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 2,
-    	lifetime: 40
+    	lifetime: 34
 	},
 }
 requirements: [
@@ -43,11 +44,6 @@ coolant: {
   allowGas: true
   allowLiquid: true
   amount: 0.1
-}
-shoot: {
-  type: ShootAlternate
-  spread: 4
-  shotDelay: 2
 }
 drawer: {
   type: DrawTurret
