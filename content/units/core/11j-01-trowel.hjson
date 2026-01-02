@@ -22,10 +22,10 @@ outlineColor: 16192b
         mirror: true
         alternate: false
         rotate: false
-        reload: 73
+        reload: 63
         recoil: 2.5
       	top: false
-	shootSound: bang
+	shootSound: shootCleroi
 	bullet: {
             type: ShrapnelBulletType
 	    shootEffect: shootBig
