@@ -1,10 +1,10 @@
 type: flying
 flying: true
 name: Impede
-description: Fires EMP-like charges at enemies. Fragile and slow.
+description: Fires small sapping bullets at nearby enemies.
 drag: 0.035
 outlineColor: 16192b
-speed: 7
+speed: 6
 rotateSpeed: 3.5
 accel: 0.014
 groundLayer: 60
@@ -22,35 +22,34 @@ engines: [
 ]
 itemCapacity: 0
 weapons: [
-  {
-    x: 0
-    y: 0
-    mirror: false
-    alternate: false
-    reload: 108
-    shootCone: 6
-    rotate: false
-    shootSound: laser
-    bullet: {
-          type: BasicBulletType
-          speed: 2.5
-          backColor: 665c9f
-          frontColor: bf92f9
-	  trailColor: e4cfff
-	  trailLength: 2.5
-	  trailWidth: 1.5
-          damage: 18
-          splashDamage: 18
-          splashDamageRadius: 24
-          homingDelay: 5
-          homingPower: 0.03
-          status: delayed
-          statusDuration: 180
-          length: 6
-          width: 8
-	  recoil: 2
-	  hitEffect: blastExplosion
-	  despawnEffect: blastExplosion
-      }
-   }
+    {
+        x: 0
+        y: 0
+        mirror: true
+        alternate: false
+        rotate: false
+        reload: 33
+        shoot: {
+	  type: ShootHelix
+          shots: 2
+          shotDelay: 7
+         }
+        bullet: {
+            type: BasicBulletType
+            speed: 2.5
+   	    frontColor: 754f9a
+    	    backColor: bf92f9
+   	    trailColor: 754f9a
+            weaveMag: 4
+            weaveScale: 4
+	    trailLength: 6
+	    trailWidth: 1
+	    lifetime: 31
+            width: 4
+            height: 8
+            damage: 14
+            status: sapped
+            statusDuration: 360
+        }
+    }
 ]
