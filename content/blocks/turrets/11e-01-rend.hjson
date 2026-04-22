@@ -7,7 +7,7 @@ targetGround: true
 health: 360
 outlineColor: 16192b
 inaccuracy: 0
-reload: 44
+reload: 80
 shootCone: 3
 rotateSpeed: 2.5
 range: 140
