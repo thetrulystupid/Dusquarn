@@ -16,7 +16,7 @@ researchCost: [
   weapons: [
     {
         x: 5
-        y: 0
+        y: -1
         name: 11k-01-waddle-launcher
         mirror: true
         alternate: true
