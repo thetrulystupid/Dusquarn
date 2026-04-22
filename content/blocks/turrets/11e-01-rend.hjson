@@ -12,7 +12,7 @@ shootCone: 3
 rotateSpeed: 2.5
 range: 140
 recoil: 1
-shootY: 0.5
+shootY: 1
 research: 11a-01-core-trench
 researchCost: [
   manganese/60
