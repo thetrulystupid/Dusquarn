@@ -21,7 +21,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 19,
+		damage: 18,
 		width: 8
 		height: 12
 		frontColor: f1b5de
@@ -38,6 +38,9 @@ ammoTypes: {
 requirements: [
     manganese/60
 ]
+shoot: {
+   shots: 4
+}
 coolantMultiplier: 1.6
 coolant: {
   type: ConsumeCoolant
