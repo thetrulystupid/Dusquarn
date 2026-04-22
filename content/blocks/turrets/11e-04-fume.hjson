@@ -6,7 +6,7 @@ targetAir: true
 targetGround: true
 health: 660
 outlineColor: 16192b
-inaccuracy: 6
+inaccuracy: 9
 reload: 99
 shoot: {
   shots: 6
