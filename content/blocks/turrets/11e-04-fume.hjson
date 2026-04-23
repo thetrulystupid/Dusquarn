@@ -35,6 +35,7 @@ ammoTypes: {
 		type: BasicBulletType
 		speed: 3.5,
 		damage: 22,
+		pierce: true
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
