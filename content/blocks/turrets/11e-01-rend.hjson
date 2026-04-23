@@ -21,7 +21,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5,
-		damage: 18,
+		damage: 11,
 		width: 8
 		height: 12
 		frontColor: f1b5de
