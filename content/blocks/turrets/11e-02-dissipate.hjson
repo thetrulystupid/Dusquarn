@@ -22,9 +22,9 @@ ammoTypes: {
 	aluminium: {
 		type: BasicBulletType
 		speed: 9,
-		damage: 18,
-    		splashDamage: 18
-    		splashDamageRadius: 28
+		damage: 36,
+    		splashDamage: 36
+    		splashDamageRadius: 22
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
 		width: 8
