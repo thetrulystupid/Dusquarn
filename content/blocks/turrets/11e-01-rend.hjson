@@ -31,6 +31,8 @@ ammoTypes: {
 		trailWidth: 1
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
+		pierce: true
+		pierceCap: 2
 		ammoMultiplier: 2,
     	lifetime: 34
 	},
