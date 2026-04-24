@@ -1,6 +1,6 @@
 type: naval
 name: Loop
-description: Fires fast, homing missiles at nearby targets rapidly. Heavily armored.
+description: Fires fast-moving homing missiles at nearby targets rapidly. Heavily armored.
 speed: 0.8
 armor: 3
 canDrown: false
@@ -35,8 +35,8 @@ outlineColor: 16192b
             homingPower: 0.06
             width: 5
             height: 7
-            damage: 11
-            splashDamage: 11
+            damage: 22
+            splashDamage: 22
             splashDamageRadius: 28
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
