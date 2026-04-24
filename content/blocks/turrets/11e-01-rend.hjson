@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Rend
-description: Fires manganese bullets at enemies. Nothing special.
+description: Fires manganese pellets at enemies. Nothing special.
 size: 2
 targetAir: true
 targetGround: true
@@ -28,10 +28,8 @@ ammoTypes: {
 		trailColor: f1b5de
 		trailLength: 4
 		trailWidth: 1
-		shootEffect: shootSmall,
-		smokeEffect: shootSmallSmoke,
-		pierce: true
-		pierceCap: 2
+		shootEffect: shootBig,
+		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 2,
     	lifetime: 34
 	},
@@ -54,5 +52,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: shootCyclone
+shootSound: shootDiffuse
 squareSprite: false
