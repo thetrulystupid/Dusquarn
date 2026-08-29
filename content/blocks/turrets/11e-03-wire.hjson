@@ -6,35 +6,36 @@ targetAir: true
 targetGround: true
 health: 280
 outlineColor: 16192b
-reload: 44
+reload: 49
 shootCone: 9
-rotateSpeed: 3
+rotateSpeed: 2
 range: 180
 recoil: 1.5
 shootY: 0.3
 research: 11e-01-rend
 researchCost: [
-  manganese/800
+  manganese/200
 ]
 ammoTypes: {
 	manganese: {
 		type: MissileBulletType
-		speed: 5,
-		splashDamage: 22,
+		speed: 3,
+		splashDamage: 18,
 		splashDamageRadius: 20,
 		buildingDamageMultiplier: 0.5
-		width: 3
-		height: 6
+		width: 4
+		height: 8
 		trailColor: e393ba
-		trailLength: 1.5
-		trailWidth: 1
-		lifetime: 133
+		trailLength: 2
+		trailWidth: 2
+		lifetime: 88
    		frontColor: e393ba
   		backColor: 7a417a
   		homingPower: 0.24
   		homingDelay: 12
   		homingRange: 44
-		smokeEffect: none,
+		shootEffect: shootSmall,
+		smokeEffect: shootSmallSmoke,
 		ammoMultiplier: 4,
 	},
 }
@@ -52,5 +53,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: shootArc
+shootSound: shootDuo
 squareSprite: false
