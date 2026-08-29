@@ -11,7 +11,7 @@ reload: 39
 shootCone: 6
 rotateSpeed: 2.5
 range: 220
-recoil: 1
+recoils: 2
 research: 11a-01-core-trench
 researchCost: [
   manganese/90
