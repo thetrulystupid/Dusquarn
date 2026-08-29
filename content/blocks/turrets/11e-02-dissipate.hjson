@@ -4,45 +4,44 @@ description: Fires fast, explosive rounds at nearby flying enemies. Effective ag
 size: 2
 targetAir: true
 targetGround: false
-health: 660
+health: 300
 outlineColor: 16192b
 inaccuracy: 3
-reload: 44
-shootCone: 7
-rotateSpeed: 6
-range: 260
+reload: 33
+shootCone: 6
+rotateSpeed: 4
+range: 280
 recoil: 3
 shootY: 0.3
 research: 11e-01-rend
 researchCost: [
-  manganese/800
-  aluminium/550
+  manganese/600
+  aluminium/300
 ]
 ammoTypes: {
-	aluminium: {
+	manganese: {
 		type: BasicBulletType
-		speed: 9,
-		damage: 36,
-    		splashDamage: 36
-    		splashDamageRadius: 22
+		speed: 6,
+   		splashDamage: 44
+    	splashDamageRadius: 22
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
-		width: 8
+		width: 6
 		height: 12
-		frontColor: bebebe
-		backColor: 818181
-		trailColor: bebebe
+		frontColor: e393ba
+		backColor: 7a417a
+		trailColor: 7a417a
 		trailLength: 3
 		trailWidth: 1
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-		ammoMultiplier: 3,
-   		lifetime: 33
+		ammoMultiplier: 4,
+   		lifetime: 66
 	},
 }
 requirements: [
-    manganese/80
-    aluminium/55
+    manganese/120
+    aluminium/60
 ]
 coolant: {
   type: ConsumeCoolant
