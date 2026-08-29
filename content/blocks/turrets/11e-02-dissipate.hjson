@@ -52,6 +52,24 @@ coolant: {
 drawer: {
   type: DrawTurret
   basePrefix: monno-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -wing-left
+      mirror: true
+      under: false
+      progress: recoil
+      moveRot: -15
+    }
+	{
+      type: RegionPart
+      suffix: -wing-right
+      mirror: true
+      under: false
+      progress: recoil
+      moveRot: -15
+    }
+  ]
 }
 category: turret
 shootSound: shootSpectre
