@@ -35,7 +35,24 @@ ammoTypes: {
 		trailWidth: 1
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-		ammoMultiplier: 4,
+  		fragSpread: 60
+   		fragVelocityMin: 0.5
+ 	    fragVelocityMax: 1
+	    fragBullets: 4
+	    	fragBullet: {
+      	    	type: BasicBulletType
+     	    	pierce: true
+				pierceCap: 1
+     	    	width: 3
+    	    	height: 6
+    	   		frontColor: 7a417a
+   	    		backColor: 4f2647
+    	    	pierceBuilding: false
+    	    	damage: 9
+    	    	hitEffect: none
+    	    	despawnEffect: none
+   		 }
+		ammoMultiplier: 3,
    		lifetime: 66
 	},
 }
