@@ -1,13 +1,13 @@
 type: ItemTurret
 name: Dissipate
-description: Fires fast, explosive rounds at nearby flying enemies. Effective against unarmored targets.
+description: Fires heavy flak rounds at enemy aircraft and winged creatures.
 size: 2
 targetAir: true
 targetGround: false
 health: 300
 outlineColor: 16192b
 inaccuracy: 3
-reload: 33
+reload: 77
 shootCone: 6
 rotateSpeed: 4
 range: 280
@@ -21,9 +21,9 @@ researchCost: [
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
-		speed: 6,
-   		splashDamage: 44
-    	splashDamageRadius: 22
+		speed: 4.5,
+   		splashDamage: 66
+    	splashDamageRadius: 33
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
 		width: 6
