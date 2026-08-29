@@ -17,7 +17,7 @@ researchCost: [
   manganese/800
 ]
 ammoTypes: {
-	sodium: {
+	manganese: {
 		type: MissileBulletType
 		speed: 5,
 		splashDamage: 22,
