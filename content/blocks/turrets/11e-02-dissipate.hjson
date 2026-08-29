@@ -12,7 +12,7 @@ shootCone: 6
 rotateSpeed: 4
 range: 280
 recoil: 3
-shootY: 0.3
+shootY: 1
 research: 11e-01-rend
 researchCost: [
   manganese/600
@@ -55,16 +55,16 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -wing-left
-      mirror: false
+      suffix: -wing-l
+      mirror: true
       under: false
       progress: recoil
       moveRot: -15
     }
 	{
       type: RegionPart
-      suffix: -wing-right
-      mirror: false
+      suffix: -wing-r
+      mirror: true
       under: false
       progress: recoil
       moveRot: -15
