@@ -6,12 +6,12 @@ targetAir: true
 targetGround: true
 health: 280
 outlineColor: 16192b
-reload: 49
+reload: 52
 shootCone: 9
 rotateSpeed: 2
-range: 180
+range: 140
 recoil: 1.5
-shootY: 0.3
+shootY: 0.5
 research: 11e-01-rend
 researchCost: [
   manganese/200
@@ -28,15 +28,15 @@ ammoTypes: {
 		trailColor: e393ba
 		trailLength: 2
 		trailWidth: 2
-		lifetime: 88
+		lifetime: 66
    		frontColor: e393ba
   		backColor: 7a417a
-  		homingPower: 0.24
+  		homingPower: 0.12
   		homingDelay: 12
   		homingRange: 44
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
-		ammoMultiplier: 4,
+		ammoMultiplier: 2,
 	},
 }
 requirements: [
