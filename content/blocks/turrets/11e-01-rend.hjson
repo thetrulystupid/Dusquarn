@@ -10,8 +10,8 @@ inaccuracy: 3
 reload: 20
 shootCone: 3
 rotateSpeed: 2.5
-range: 140
-recoil: 1.5
+range: 220
+recoil: 1
 research: 11a-01-core-trench
 researchCost: [
   manganese/90
@@ -31,7 +31,7 @@ ammoTypes: {
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 3,
-    	lifetime: 34
+    	lifetime: 55
 	},
 }
 requirements: [
