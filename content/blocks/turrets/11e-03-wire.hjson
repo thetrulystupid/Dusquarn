@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Wire
-description: Fires small missiles across long distances.
+description: Fires small missiles across medium distances.
 size: 1
 targetAir: true
 targetGround: true
@@ -9,9 +9,9 @@ outlineColor: 16192b
 reload: 52
 shootCone: 9
 rotateSpeed: 2
-range: 140
+range: 180
 recoil: 1.5
-shootY: 0.5
+shootY: 1
 research: 11e-01-rend
 researchCost: [
   manganese/200
@@ -20,7 +20,7 @@ ammoTypes: {
 	manganese: {
 		type: MissileBulletType
 		speed: 3,
-		splashDamage: 18,
+		splashDamage: 22,
 		splashDamageRadius: 20,
 		buildingDamageMultiplier: 0.5
 		width: 4
