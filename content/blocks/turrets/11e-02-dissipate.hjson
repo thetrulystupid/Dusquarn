@@ -78,7 +78,7 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: -15
+      moveRot: 15
     }
     {  
       type: RegionPart
@@ -86,7 +86,7 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: 1.5
+      moveRot: -15
     }  
   ]
 }
