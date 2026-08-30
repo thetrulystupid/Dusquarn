@@ -35,10 +35,10 @@ ammoTypes: {
 		trailWidth: 1
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-  		fragSpread: 60
+  		fragSpread: 30
 		fragRandomSpread: 0
-   		fragVelocityMin: 0.5
- 	    fragVelocityMax: 1
+   		fragVelocityMin: 0.7
+ 	    fragVelocityMax: 1.1
 	    fragBullets: 4
 	    	fragBullet: {
       	    	type: BasicBulletType
@@ -55,7 +55,7 @@ ammoTypes: {
     	    	despawnEffect: none
    		 }
 		ammoMultiplier: 3,
-   		lifetime: 66
+   		lifetime: 59
 	},
 }
 requirements: [
