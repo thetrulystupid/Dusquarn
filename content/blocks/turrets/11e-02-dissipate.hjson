@@ -8,11 +8,11 @@ health: 300
 outlineColor: 16192b
 inaccuracy: 3
 reload: 77
-shootCone: 6
+shootCone: 2
 rotateSpeed: 4
 range: 280
-recoil: 3
-shootY: 1
+recoil: 2
+shootY: 2
 research: 11e-01-rend
 researchCost: [
   manganese/600
