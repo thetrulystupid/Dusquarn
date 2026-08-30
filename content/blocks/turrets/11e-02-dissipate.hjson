@@ -72,25 +72,22 @@ drawer: {
   type: DrawTurret
   basePrefix: monno-
   parts: [
-	{
-		type: DrawDefault
-	}
-    {
+    {  
       type: RegionPart
-      suffix: -wing-l
-      mirror: true
-      under: false
+      suffix: -wing-left
+      mirror: false
+      under: true
       progress: recoil
-      moveRot: -15
+      moveY: -1.5
     }
-	{
+    {  
       type: RegionPart
-      suffix: -wing-r
-      mirror: true
-      under: false
+      suffix: -wing-right
+      mirror: false
+      under: true
       progress: recoil
-      moveRot: -15
-    }
+      moveY: -1.5
+    }  
   ]
 }
 category: turret
