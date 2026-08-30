@@ -72,6 +72,9 @@ drawer: {
   type: DrawTurret
   basePrefix: monno-
   parts: [
+	{
+		type: DrawDefault
+	}
     {
       type: RegionPart
       suffix: -wing-l
