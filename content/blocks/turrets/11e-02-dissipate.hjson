@@ -12,7 +12,7 @@ shootCone: 2
 rotateSpeed: 4
 range: 280
 recoil: 2
-shootY: 2
+shootY: 15
 research: 11e-01-rend
 researchCost: [
   manganese/600
