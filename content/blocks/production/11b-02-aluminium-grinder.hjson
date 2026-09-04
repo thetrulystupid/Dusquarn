@@ -12,7 +12,7 @@ requirements: [
 researchCost: [
   manganese/20
 ]
-drillTime: 77
+drillTime: 111
   
 output: aluminium
 attribute: aluminium
