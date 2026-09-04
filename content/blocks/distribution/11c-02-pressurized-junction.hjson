@@ -6,7 +6,7 @@ speed: 9
 health: 80
 research: 11c-01-low-pressure-duct
 researchCost: [
-  manganese/80
+  manganese/40
 ]
 requirements: [
   manganese/4
