@@ -5,8 +5,8 @@ description: Outputs items to the front if the sides are blocked.
 category: distribution
 research: 11c-04-pressurized-overflow
 researchCost: [
-  manganese/160
-  aluminium/80
+  manganese/80
+  aluminium/40
 ]
 requirements: [
   manganese/8
