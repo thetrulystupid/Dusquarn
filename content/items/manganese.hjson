@@ -3,6 +3,6 @@ description: "Hard, brittle metal used in simple construction."
 hardness: 1
 cost: 0.7
 alwaysUnlocked: true
-color: b77aa4
+color: e393ba
 research: 11a-01-core-trench
 hiddenOnPlanets: [serpulo, erekir]
