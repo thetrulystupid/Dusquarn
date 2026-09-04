@@ -36,6 +36,7 @@ ammoTypes: {
 		speed: 3.5,
 		damage: 33,
 		pierce: true
+		pierceCap: 2
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
@@ -43,7 +44,7 @@ ammoTypes: {
 		frontColor: d9c277
 		backColor: ad574d
 		trailColor: dd8b60
-		trailLength: 3
+		trailLength: 3.5
 		trailWidth: 2.5
   		weaveMag: 2.5
 		weaveScale: 4
