@@ -1,9 +1,9 @@
 type: HeatCrafter
-name: Luma Alloy Forge
+name: Luma Forge
 description: Melts Manganese and Aluminium together using Anthracite as fuel to produce Luma Alloy.
 size: 2
-craftTime: 95
-itemCapacity: 10
+craftTime: 133
+itemCapacity: 20
 squareSprite: false
 
 heatRequirement: 4.0
