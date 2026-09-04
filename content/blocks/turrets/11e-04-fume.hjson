@@ -1,13 +1,13 @@
 type: ItemTurret
 name: Fume
-description: Fires large amounts of slow, heavy bullets in bursts at nearby enemies. Struggles against fast units.
+description: Fires large amounts of slow, inaccurate bullets that pierce through targets.
 size: 2
 targetAir: true
 targetGround: true
 health: 660
 outlineColor: 16192b
-inaccuracy: 9
-reload: 99
+inaccuracy: 11
+reload: 88
 shoot: {
   shots: 6
   shotDelay: 7
@@ -16,8 +16,8 @@ shootCone: 9
 rotateSpeed: 3.5
 range: 190
 recoil: 2
-velocityRnd: 0.3
-shootY: 2
+velocityRnd: 0.4
+shootY: 2.5
 research: {
    parent: 11e-02-dissipate
    objectives: [
@@ -27,22 +27,22 @@ research: {
 ammoPerShot: 8
 researchCost: [
   manganese/1600
-  aluminium/1100
+  aluminium/1600
   luma-alloy/800
 ]
 ammoTypes: {
 	luma-alloy: {
 		type: BasicBulletType
 		speed: 3.5,
-		damage: 22,
+		damage: 33,
 		pierce: true
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
 		height: 13
-		frontColor: bebebe
-		backColor: 818181
-		trailColor: bebebe
+		frontColor: d9c277
+		backColor: ad574d
+		trailColor: dd8b60
 		trailLength: 3
 		trailWidth: 2.5
   		weaveMag: 2.5
@@ -54,9 +54,9 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/80
-    aluminium/55
-	luma-alloy/40
+    manganese/160
+    aluminium/160
+	luma-alloy/80
 ]
 coolant: {
   type: ConsumeCoolant
