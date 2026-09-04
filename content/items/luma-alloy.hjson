@@ -4,6 +4,6 @@ hardness: 1.2
 cost: 1.1
 charge: 0.15
 alwaysUnlocked: true
-color: dd8b60
+color: d9c277
 research: aluminium
 hiddenOnPlanets: [serpulo, erekir]
