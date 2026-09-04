@@ -1,0 +1,21 @@
+type: WallCrafter
+name: Aluminium Grinder
+description: Mines Aluminium out from walls.
+size: 3
+category: production
+  
+research: 11a-01-core-trench
+requirements: [
+  manganese/30
+]
+  
+researchCost: [
+  manganese/20
+]
+drillTime: 77
+  
+output: 01a-01-item-ferrinite
+attribute: aluminium
+ambientSound: loopDrill
+ambientSoundVolume: 0.1
+squareSprite: false
