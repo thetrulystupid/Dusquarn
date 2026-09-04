@@ -24,6 +24,7 @@ research: {
       luma-alloy
    ]
 }
+ammoPerShot: 8
 researchCost: [
   manganese/1600
   aluminium/1100
