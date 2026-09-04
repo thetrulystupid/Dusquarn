@@ -21,17 +21,16 @@ shootY: 2
 research: {
    parent: 11e-02-dissipate
    objectives: [
-      mangalumin-alloy,
-      11e-02-dissipate
+      luma-alloy
    ]
 }
 researchCost: [
   manganese/1600
   aluminium/1100
-  mangalumin-alloy/800
+  luma-alloy/800
 ]
 ammoTypes: {
-	mangalumin-alloy: {
+	luma-alloy: {
 		type: BasicBulletType
 		speed: 3.5,
 		damage: 22,
@@ -56,7 +55,7 @@ ammoTypes: {
 requirements: [
     manganese/80
     aluminium/55
-	mangalumin-alloy/40
+	luma-alloy/40
 ]
 coolant: {
   type: ConsumeCoolant
