@@ -4,7 +4,7 @@ description: Outputs items to the sides if the front is blocked.
 category: distribution
 research: 11c-03-pressurized-router
 researchCost: [
-  manganese/160
+  manganese/80
 ]
 requirements: [
   manganese/8
