@@ -1,0 +1,15 @@
+type: Wall
+name: Large Luma Wall
+description: Large protective wall of Luma Alloy.
+size: 2
+health: 1600
+armor: 2
+squareSprite: false
+research: 11f-03-luma-wall-small
+researchCost: [
+  luma-alloy/640
+]
+requirements: [
+  luma-alloy/32
+]
+category: defense
