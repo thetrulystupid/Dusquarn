@@ -1,15 +1,15 @@
 type: Wall
-name: Mangalumin Wall
-description: Durable brick of Mangalumin to protect other buildings.
+name: Luma Wall
+description: Wall made from Luma Alloy designed to soak damage for structures behind it.
 size: 1
 health: 440
 armor: 1
 squareSprite: false
 research: 11f-2-manganese-wall-large
 researchCost: [
-  mangalumin-alloy/400
+  luma-alloy/160
 ]
 requirements: [
-  mangalumin-alloy/8
+  luma-alloy/8
 ]
 category: defense
