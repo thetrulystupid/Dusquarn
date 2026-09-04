@@ -1,5 +1,5 @@
 type: Wall
-name: Luma Wall
+name: Luma Alloy Wall
 description: Wall made from Luma Alloy designed to soak damage for structures behind it.
 size: 1
 health: 440
