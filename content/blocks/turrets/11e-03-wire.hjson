@@ -16,6 +16,7 @@ research: 11e-01-rend
 researchCost: [
   manganese/200
 ]
+ammoPerShot: 3
 ammoTypes: {
 	manganese: {
 		type: MissileBulletType
