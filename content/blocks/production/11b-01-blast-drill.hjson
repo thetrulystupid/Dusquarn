@@ -1,18 +1,17 @@
-type: Drill
-name: Steady Drill
-description: Outputs items at a slow pace indefinitely. Can only mine basic items.
+type: BurstDrill
+name: Blast Drill
+description: Outputs items in small bursts at a decent pace.
 size: 2
 category: production
 squareSprite: false
 warmupSpeed: 0.009
-rotateSpeed: 1.8
 tier: 1
 research: 11a-01-core-trench
 researchCost: [
-  manganese/20
+  manganese/15
 ]
 requirements: [
-  manganese/14
+  manganese/30
 ]
 drillTime: 370
 ambientSound: drill
