@@ -1,4 +1,4 @@
-name: Aluminium Ore Wall
+name: Aluminium
 type: StaticWall
 variants: 3
 itemDrop: aluminium
