@@ -18,6 +18,7 @@ researchCost: [
   manganese/600
   aluminium/300
 ]
+ammoPerShot: 6
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
