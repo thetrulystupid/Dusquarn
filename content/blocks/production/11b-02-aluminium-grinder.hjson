@@ -1,7 +1,7 @@
 type: WallCrafter
 name: Aluminium Grinder
 description: Mines Aluminium out from walls.
-size: 3
+size: 2
 category: production
   
 research: 11a-01-core-trench
