@@ -16,6 +16,7 @@ research: 11a-01-core-trench
 researchCost: [
   manganese/90
 ]
+ammoPerShot: 3
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
