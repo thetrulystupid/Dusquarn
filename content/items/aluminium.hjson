@@ -3,6 +3,6 @@ description: "Malleable metal mostly used in corrosion-resistant armor, electron
 hardness: 0.8
 cost: 0.85
 alwaysUnlocked: true
-color: 818181
+color: adb8cc
 research: manganese
 hiddenOnPlanets: [serpulo, erekir]
