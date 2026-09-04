@@ -1,6 +1,5 @@
 name: Aluminium Ore Wall
 type: StaticWall
-itemDrop: aluminium
 variants: 3
 attributes: {
   aluminium: 1
