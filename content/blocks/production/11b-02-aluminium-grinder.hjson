@@ -14,7 +14,7 @@ researchCost: [
 ]
 drillTime: 77
   
-output: 01a-01-item-ferrinite
+output: aluminium
 attribute: aluminium
 ambientSound: loopDrill
 ambientSoundVolume: 0.1
