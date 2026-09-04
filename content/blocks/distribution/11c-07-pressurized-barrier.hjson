@@ -1,12 +1,12 @@
 type: Sorter
-name: Pressurized Barrier
+name: Pressurized Sorter
 invert: true
 description: Sorts items. Selected item is sent to the sides, others are output forward.
 category: distribution
 research: 11c-06-pressurized-gate
 researchCost: [
-  manganese/160
-  aluminium/80
+  manganese/80
+  aluminium/40
 ]
 requirements: [
   manganese/8
