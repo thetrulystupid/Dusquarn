@@ -1,0 +1,10 @@
+name: Anthracite
+description: "Incredibly pure form of coal, flammable and mildly explosive."
+hardness: 0.8
+cost: 0.85
+flammability: 1.0
+explosiveness: 0.1
+alwaysUnlocked: false
+color: 635f6c
+research: aluminium
+hiddenOnPlanets: [serpulo, erekir]
