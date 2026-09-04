@@ -1,5 +1,5 @@
 type: Sorter
-name: Pressurized Sorter
+name: Pressurized Inverted Sorter
 invert: true
 description: Sorts items. Selected item is sent to the sides, others are output forward.
 category: distribution
