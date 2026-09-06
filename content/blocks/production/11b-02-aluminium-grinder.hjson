@@ -6,7 +6,7 @@ category: production
   
 research: 11a-01-core-trench
 requirements: [
-  manganese/30
+  manganese/20
 ]
   
 researchCost: [
