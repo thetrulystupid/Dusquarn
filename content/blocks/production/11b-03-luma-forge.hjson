@@ -6,7 +6,7 @@ craftTime: 144
 itemCapacity: 20
 squareSprite: false
 
-heatRequirement: 4.0
+heatRequirement: 3.0
 maxEfficiency: 2.0
 overheatScale: 1.0
 
@@ -18,9 +18,9 @@ researchCost: [
 
 consumes: {
   items: [
-    manganese/2
-    aluminium/2
-    anthracite/3
+    manganese/3
+    aluminium/3
+    anthracite/4
   ]
 }
 outputItem: luma-alloy/2
