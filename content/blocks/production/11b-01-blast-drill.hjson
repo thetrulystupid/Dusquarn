@@ -8,10 +8,10 @@ warmupSpeed: 0.009
 tier: 1
 research: 11a-01-core-trench
 researchCost: [
-  manganese/15
+  manganese/20
 ]
 requirements: [
-  manganese/30
+  manganese/20
 ]
 drillTime: 370
 ambientSound: drill
