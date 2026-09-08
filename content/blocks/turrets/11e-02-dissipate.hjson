@@ -23,7 +23,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5.5,
-   		splashDamage: 66
+   		splashDamage: 44
     	splashDamageRadius: 33
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
@@ -36,11 +36,11 @@ ammoTypes: {
 		trailWidth: 1
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-  		fragSpread: 30
-		fragRandomSpread: 0
+  		fragSpread: 12
+		fragRandomSpread: 9
    		fragVelocityMin: 0.7
- 	    fragVelocityMax: 1.1
-	    fragBullets: 4
+ 	    fragVelocityMax: 1.0
+	    fragBullets: 3
 	    	fragBullet: {
       	    	type: BasicBulletType
      	    	pierce: true
@@ -51,7 +51,7 @@ ammoTypes: {
     	   		frontColor: 7a417a
    	    		backColor: 4f2647
     	    	pierceBuilding: false
-    	    	damage: 9
+    	    	damage: 11
     	    	hitEffect: none
     	    	despawnEffect: none
    		 }
@@ -79,7 +79,7 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: 15
+      moveRot: 22
     }
     {  
       type: RegionPart
@@ -87,8 +87,16 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: -15
+      moveRot: -22
     }  
+	{  
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+    }
   ]
 }
 category: turret
