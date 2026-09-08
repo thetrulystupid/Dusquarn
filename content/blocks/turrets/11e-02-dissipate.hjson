@@ -10,7 +10,7 @@ inaccuracy: 3
 reload: 77
 shootCone: 2
 rotateSpeed: 4
-range: 280
+range: 220
 recoil: 2
 shootY: 10
 research: 11e-01-rend
@@ -59,7 +59,7 @@ ammoTypes: {
     	    	despawnEffect: none
    		 }
 		ammoMultiplier: 2,
-   		lifetime: 59
+   		lifetime: 44
 	},
 }
 requirements: [
