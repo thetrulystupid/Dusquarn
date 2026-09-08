@@ -1,16 +1,16 @@
 type: ItemTurret
 name: Rend
-description: Fires large manganese clumps at nearby enemies.
+description: Fires heavy piercing bullets at nearby enemies.
 size: 2
 targetAir: false
 targetGround: true
 health: 360
 outlineColor: 16192b
-inaccuracy: 4
+inaccuracy: 5
 reload: 33
-shootCone: 6
-rotateSpeed: 2.5
-range: 220
+shootCone: 7
+rotateSpeed: 3
+range: 180
 recoils: 2
 research: 11a-01-core-trench
 researchCost: [
@@ -27,12 +27,12 @@ ammoTypes: {
 		frontColor: f1b5de
 		backColor: d77bba
 		trailColor: f1b5de
-		trailLength: 4.5
+		trailLength: 6
 		trailWidth: 1.5
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
 		ammoMultiplier: 3,
-    	lifetime: 49
+    	lifetime: 55
 	},
 }
 requirements: [
@@ -40,7 +40,7 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 4
+  spread: 6
   shotDelay: 10
 }
 coolantMultiplier: 1.5
@@ -79,6 +79,7 @@ drawer: {
       under: true
       progress: recoil
       moveRot: 15
+	  recoilIndex: 0
     }
     {  
       type: RegionPart
@@ -87,9 +88,10 @@ drawer: {
       under: true
       progress: recoil
       moveRot: -15
+	  recoilIndex: 1
     }  
   ]
 }
 category: turret
-shootSound: shootHail
+shootSound: shootSalvo
 squareSprite: false
