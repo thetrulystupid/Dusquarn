@@ -27,13 +27,13 @@ ammoTypes: {
     	splashDamageRadius: 33
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
-		width: 6
-		height: 12
-		frontColor: e393ba
-		backColor: 7a417a
-		trailColor: 7a417a
-		trailLength: 3
-		trailWidth: 1
+		width: 8
+		height: 14
+		frontColor: f1b5de
+		backColor: d77bba
+		trailColor: f1b5de
+		trailLength: 6
+		trailWidth: 1.5
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
   		fragSpread: 12
@@ -46,16 +46,19 @@ ammoTypes: {
      	    	pierce: true
 				pierceCap: 1
 				speed: 3
-     	    	width: 4
-    	    	height: 8
-    	   		frontColor: 7a417a
-   	    		backColor: 4f2647
+     	    	width: 5
+    	    	height: 9
+				frontColor: f1b5de
+				backColor: d77bba
+				trailColor: f1b5de
+				trailLength: 3
+				trailWidth: 0.75
     	    	pierceBuilding: false
     	    	damage: 11
     	    	hitEffect: none
     	    	despawnEffect: none
    		 }
-		ammoMultiplier: 3,
+		ammoMultiplier: 2,
    		lifetime: 59
 	},
 }
