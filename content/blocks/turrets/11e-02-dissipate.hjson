@@ -12,11 +12,11 @@ shootCone: 2
 rotateSpeed: 4
 range: 280
 recoil: 2
-shootY: 15
+shootY: 10
 research: 11e-01-rend
 researchCost: [
-  manganese/600
-  aluminium/300
+  manganese/90
+  aluminium/60
 ]
 ammoPerShot: 6
 ammoTypes: {
@@ -63,7 +63,7 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/120
+    manganese/90
     aluminium/60
 ]
 coolant: {
