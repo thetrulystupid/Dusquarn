@@ -7,7 +7,7 @@ targetGround: true
 health: 360
 outlineColor: 16192b
 inaccuracy: 4
-reload: 39
+reload: 33
 shootCone: 6
 rotateSpeed: 2.5
 range: 220
@@ -16,11 +16,11 @@ research: 11a-01-core-trench
 researchCost: [
   manganese/90
 ]
-ammoPerShot: 3
+ammoPerShot: 2
 ammoTypes: {
 	manganese: {
 		type: BasicBulletType
-		speed: 3.5,
+		speed: 4,
 		damage: 22,
 		width: 6
 		height: 10
@@ -72,8 +72,24 @@ drawer: {
       moveY: -1.5
       recoilIndex: 1
     }  
+{  
+      type: RegionPart
+      suffix: -wing-left
+      mirror: false
+      under: true
+      progress: recoil
+      moveRot: 15
+    }
+    {  
+      type: RegionPart
+      suffix: -wing-right
+      mirror: false
+      under: true
+      progress: recoil
+      moveRot: -15
+    }  
   ]
 }
 category: turret
-shootSound: shootDiffuse
+shootSound: shootHail
 squareSprite: false
