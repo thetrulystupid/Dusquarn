@@ -15,6 +15,7 @@ recoils: 2
 research: 11a-01-core-trench
 researchCost: [
   manganese/90
+  aluminium/60
 ]
 ammoPerShot: 2
 ammoTypes: {
