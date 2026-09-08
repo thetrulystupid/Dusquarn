@@ -38,6 +38,7 @@ ammoTypes: {
 }
 requirements: [
     manganese/90
+	aluminium/60
 ]
 shoot: {
   type: ShootAlternate
