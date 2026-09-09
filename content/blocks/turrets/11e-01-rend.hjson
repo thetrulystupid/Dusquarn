@@ -12,6 +12,7 @@ shootCone: 7
 rotateSpeed: 3
 range: 180
 recoils: 2
+velocityRnd: 0.2
 research: 11a-01-core-trench
 researchCost: [
   manganese/90
