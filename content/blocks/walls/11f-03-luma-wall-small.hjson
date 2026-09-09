@@ -2,12 +2,16 @@ type: Wall
 name: Luma Alloy Wall
 description: Wall made from Luma Alloy designed to soak damage for structures behind it.
 size: 1
-health: 440
-armor: 1
+health: 660
+armor: 7
 squareSprite: false
 research: 11f-2-manganese-wall-large
+lightningChance: 0.15
+lightningColor: fff9a5
+lightningDamage: 12
+lightningLength: 10
 researchCost: [
-  luma-alloy/160
+  luma-alloy/80
 ]
 requirements: [
   luma-alloy/8
