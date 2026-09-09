@@ -6,13 +6,13 @@ targetAir: true
 targetGround: false
 health: 300
 outlineColor: 16192b
-inaccuracy: 3
+inaccuracy: 1
 reload: 77
 shootCone: 2
 rotateSpeed: 4
 range: 220
 recoil: 2
-shootY: 10
+shootY: 7
 research: 11e-01-rend
 researchCost: [
   manganese/90
@@ -36,27 +36,24 @@ ammoTypes: {
 		trailWidth: 1.5
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-  		fragSpread: 12
-		fragRandomSpread: 9
-   		fragVelocityMin: 0.7
- 	    fragVelocityMax: 1.0
+   		fragVelocityMin: 1.0
+ 	    fragVelocityMax: 1.3
 	    fragBullets: 3
 	    	fragBullet: {
       	    	type: BasicBulletType
-     	    	pierce: true
-				pierceCap: 1
-				speed: 3
+				speed: 5.5
      	    	width: 5
     	    	height: 9
 				frontColor: f1b5de
 				backColor: d77bba
 				trailColor: f1b5de
-				trailLength: 3
-				trailWidth: 0.75
+				trailLength: 4
+				trailWidth: 1.5
     	    	pierceBuilding: false
-    	    	damage: 11
-    	    	hitEffect: none
-    	    	despawnEffect: none
+    	    	splashDamage: 11
+    			splashDamageRadius: 11
+				hitEffect: flakExplosion
+				despawnEffect: flakExplosion
    		 }
 		ammoMultiplier: 2,
    		lifetime: 44
