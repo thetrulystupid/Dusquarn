@@ -15,8 +15,8 @@ recoils: 2
 velocityRnd: 0.15
 research: 11a-01-core-trench
 researchCost: [
-  manganese/90
-  aluminium/60
+  manganese/60
+  aluminium/30
 ]
 ammoPerShot: 2
 ammoTypes: {
@@ -38,8 +38,8 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/90
-	aluminium/60
+    manganese/60
+	aluminium/30
 ]
 shoot: {
   type: ShootAlternate
