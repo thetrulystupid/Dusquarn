@@ -1,9 +1,13 @@
 type: Wall
 name: Large Luma Alloy Wall
-description: Large protective wall of Luma Alloy.
+description: Protects structures from incoming projectiles. Can zap nearby enemies.
 size: 2
-health: 1600
-armor: 2
+health: 2640
+armor: 7
+lightningChance: 0.15
+lightningColor: fff9a5
+lightningDamage: 12
+lightningLength: 10
 squareSprite: false
 research: 11f-03-luma-wall-small
 researchCost: [
