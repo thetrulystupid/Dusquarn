@@ -1,12 +1,13 @@
 type: Wall
 name: Large Manganese Wall
-description: Large blob of manganese designed to defend structures.
+description: Protects structures from incoming projectiles.
 size: 2
-health: 1440
+health: 1920
+armor: 3
 squareSprite: false
 research: 11f-01-manganese-wall-small
 researchCost: [
-  manganese/800
+  manganese/320
 ]
 requirements: [
   manganese/32
