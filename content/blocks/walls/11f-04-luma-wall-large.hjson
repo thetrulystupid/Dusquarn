@@ -11,7 +11,7 @@ lightningLength: 10
 squareSprite: false
 research: 11f-03-luma-wall-small
 researchCost: [
-  luma-alloy/640
+  luma-alloy/320
 ]
 requirements: [
   luma-alloy/32
