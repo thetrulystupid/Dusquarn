@@ -34,7 +34,13 @@ ammoTypes: {
 	luma-alloy: {
 		type: BasicBulletType
 		speed: 3.5,
-		damage: 33,
+		damage: 32,
+    	status: shocked
+    	statusDuration: 300
+  		lightning: 1
+  		lightningLength: 6
+   		lightningColor: d9c277
+    	lightningDamage: 8
 		pierce: true
 		pierceCap: 1
 		hitEffect: hitBulletBig
@@ -50,7 +56,7 @@ ammoTypes: {
 		weaveScale: 4
 		shootEffect: shootBig,
 		smokeEffect: shootBigSmoke,
-		ammoMultiplier: 6,
+		ammoMultiplier: 2,
    		lifetime: 66
 	},
 }
