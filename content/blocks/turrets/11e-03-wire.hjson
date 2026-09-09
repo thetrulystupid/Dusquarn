@@ -14,7 +14,9 @@ recoil: 1.5
 shootY: 1
 research: 11e-01-rend
 researchCost: [
-  manganese/200
+  manganese/800
+  aluminium/800
+  luma-alloy/400
 ]
 ammoPerShot: 2
 ammoTypes: {
@@ -41,7 +43,9 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/40
+  manganese/80
+  aluminium/80
+  luma-alloy/40
 ]
 coolant: {
   type: ConsumeCoolant
