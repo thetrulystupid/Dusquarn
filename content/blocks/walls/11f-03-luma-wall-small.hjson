@@ -7,7 +7,7 @@ armor: 7
 squareSprite: false
 research: 11f-2-manganese-wall-large
 lightningChance: 0.15
-lightningColor: fff9a5
+lightningColor: d9c277
 lightningDamage: 12
 lightningLength: 10
 researchCost: [
