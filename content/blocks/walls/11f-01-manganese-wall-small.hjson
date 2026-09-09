@@ -1,12 +1,12 @@
 type: Wall
 name: Manganese Wall
-description: Blob of manganese designed to defend structures.
+description: Protects structures from incoming projectiles.
 size: 1
-health: 360
+health: 480
 squareSprite: false
 research: 11a-01-core-trench
 researchCost: [
-  manganese/200
+  manganese/8
 ]
 requirements: [
   manganese/8
