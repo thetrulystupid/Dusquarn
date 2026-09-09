@@ -5,7 +5,7 @@ size: 2
 health: 2640
 armor: 7
 lightningChance: 0.15
-lightningColor: fff9a5
+lightningColor: d9c277
 lightningDamage: 12
 lightningLength: 10
 squareSprite: false
