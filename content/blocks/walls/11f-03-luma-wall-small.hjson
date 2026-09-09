@@ -1,6 +1,6 @@
 type: Wall
 name: Luma Alloy Wall
-description: Wall made from Luma Alloy designed to soak damage for structures behind it.
+description: Protects structures from incoming projectiles. Can zap nearby enemies.
 size: 1
 health: 660
 armor: 7
