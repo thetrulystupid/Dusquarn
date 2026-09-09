@@ -7,10 +7,10 @@ targetGround: true
 health: 660
 outlineColor: 16192b
 inaccuracy: 11
-reload: 88
+reload: 99
 shoot: {
   shots: 6
-  shotDelay: 7
+  shotDelay: 6
 }
 shootCone: 9
 rotateSpeed: 3.5
@@ -36,7 +36,7 @@ ammoTypes: {
 		speed: 3.5,
 		damage: 33,
 		pierce: true
-		pierceCap: 2
+		pierceCap: 1
 		hitEffect: hitBulletBig
 		despawnEffect: hitBulletBig
 		width: 10
@@ -44,8 +44,8 @@ ammoTypes: {
 		frontColor: d9c277
 		backColor: ad574d
 		trailColor: dd8b60
-		trailLength: 3.5
-		trailWidth: 2.5
+		trailLength: 6
+		trailWidth: 3
   		weaveMag: 2.5
 		weaveScale: 4
 		shootEffect: shootBig,
