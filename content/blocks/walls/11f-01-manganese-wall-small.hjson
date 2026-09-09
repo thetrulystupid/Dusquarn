@@ -3,6 +3,7 @@ name: Manganese Wall
 description: Protects structures from incoming projectiles.
 size: 1
 health: 480
+armor: 3
 squareSprite: false
 research: 11a-01-core-trench
 researchCost: [
