@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Wire
-description: Fires small missiles across medium distances.
+description: Fires small shocking missiles across medium distances.
 size: 1
 targetAir: true
 targetGround: true
@@ -20,11 +20,13 @@ researchCost: [
 ]
 ammoPerShot: 2
 ammoTypes: {
-	manganese: {
+	luma-alloy: {
 		type: MissileBulletType
 		speed: 3,
-		splashDamage: 22,
+		splashDamage: 40,
 		splashDamageRadius: 20,
+        status: shocked
+        statusDuration: 300
 		width: 4
 		height: 8
 		frontColor: d9c277
