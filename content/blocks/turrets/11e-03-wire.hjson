@@ -4,7 +4,7 @@ description: Fires small missiles across medium distances.
 size: 1
 targetAir: true
 targetGround: true
-health: 280
+health: 180
 outlineColor: 16192b
 reload: 52
 shootCone: 9
@@ -16,28 +16,28 @@ research: 11e-01-rend
 researchCost: [
   manganese/200
 ]
-ammoPerShot: 3
+ammoPerShot: 2
 ammoTypes: {
 	manganese: {
 		type: MissileBulletType
 		speed: 3,
 		splashDamage: 22,
 		splashDamageRadius: 20,
-		buildingDamageMultiplier: 0.5
 		width: 4
 		height: 8
-		trailColor: e393ba
-		trailLength: 2
-		trailWidth: 2
-		lifetime: 66
-   		frontColor: e393ba
-  		backColor: 7a417a
+		frontColor: d9c277
+		backColor: ad574d
+		trailColor: dd8b60
+		trailLength: 4
+		trailWidth: 1
   		homingPower: 0.12
   		homingDelay: 12
   		homingRange: 44
 		shootEffect: shootSmall,
 		smokeEffect: shootSmallSmoke,
-		ammoMultiplier: 2,
+		hitEffect: explosion
+		despawnEffect: explosion
+		ammoMultiplier: 3,
 	},
 }
 requirements: [
