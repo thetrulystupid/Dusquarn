@@ -81,7 +81,7 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: 15
+      moveY: -1.5
 	  recoilIndex: 0
     }
     {  
@@ -90,7 +90,7 @@ drawer: {
       mirror: false
       under: true
       progress: recoil
-      moveRot: -15
+      moveY: -1.5
 	  recoilIndex: 1
     }  
   ]
