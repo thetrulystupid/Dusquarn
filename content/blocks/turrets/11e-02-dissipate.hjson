@@ -15,7 +15,7 @@ recoil: 2
 shootY: 7
 research: 11e-01-rend
 researchCost: [
-  manganese/90
+  manganese/120
   aluminium/60
 ]
 ammoPerShot: 6
@@ -60,7 +60,7 @@ ammoTypes: {
 	},
 }
 requirements: [
-    manganese/90
+    manganese/120
     aluminium/60
 ]
 coolant: {
