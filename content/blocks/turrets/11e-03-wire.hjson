@@ -9,9 +9,9 @@ outlineColor: 16192b
 reload: 52
 shootCone: 9
 rotateSpeed: 2
-range: 180
+range: 140
 recoil: 1.5
-shootY: 1
+shootY: 2
 research: 11e-01-rend
 researchCost: [
   manganese/800
@@ -23,7 +23,7 @@ ammoTypes: {
 	luma-alloy: {
 		type: MissileBulletType
 		speed: 3,
-		splashDamage: 40,
+		splashDamage: 30,
 		splashDamageRadius: 20,
         status: shocked
         statusDuration: 300
@@ -60,5 +60,5 @@ drawer: {
   basePrefix: monno-
 }
 category: turret
-shootSound: shootDuo
+shootSound: shootMissile
 squareSprite: false
