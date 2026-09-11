@@ -34,10 +34,10 @@ ammoTypes: {
 	luma-alloy: {
 		type: BasicBulletType
 		speed: 3.5,
-		damage: 32,
+		damage: 28,
     	status: shocked
     	statusDuration: 300
-  		lightning: 1
+  		lightning: 2
   		lightningLength: 6
    		lightningColor: d9c277
     	lightningDamage: 8
