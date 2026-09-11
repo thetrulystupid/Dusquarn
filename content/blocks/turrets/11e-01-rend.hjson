@@ -46,7 +46,6 @@ shoot: {
   spread: 6
   shotDelay: 10
 }
-coolantMultiplier: 1.5
 coolant: {
   type: ConsumeCoolant
   allowGas: true
