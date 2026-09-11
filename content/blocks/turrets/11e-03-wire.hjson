@@ -25,8 +25,12 @@ ammoTypes: {
 		speed: 3,
 		splashDamage: 30,
 		splashDamageRadius: 20,
-        status: shocked
-        statusDuration: 300
+    	status: shocked
+    	statusDuration: 300
+  		lightning: 2
+  		lightningLength: 6
+   		lightningColor: d9c277
+    	lightningDamage: 8
 		width: 4
 		height: 8
 		frontColor: d9c277
