@@ -32,12 +32,12 @@ weapons: [
     continuous: true
     shootCone: 60
     rotate: false
-    loopSound: shootSublimate
+    shootSound: shootSublimate
     bullet: {
           type: ContinuousFlameBulletType
           damage: 6
-          flareLength: 5
-          length: 35
+          flareLength: 4
+          length: 40
           width: 1.5
 	        status: sapped
 	        statusDuration: 90
