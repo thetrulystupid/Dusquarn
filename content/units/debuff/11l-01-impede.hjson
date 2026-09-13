@@ -36,9 +36,9 @@ weapons: [
 	shootVolume: 0.35
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 6
+          damage: 7
           flareLength: 4
-          length: 40
+          length: 30
           width: 1.5
 	      status: sapped
 	      statusDuration: 90
