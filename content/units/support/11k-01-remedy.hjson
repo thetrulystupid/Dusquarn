@@ -27,21 +27,20 @@ abilities: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 44
+        reload: 56
         recoil: 1.5
       	top: false
 	      shootSound: shootCleroi
 	            bullet: {
                     type: ShrapnelBulletType
-	                  shootEffect: shootBig
-	                  smokeEffect: shootBigSmoke
-                    pierceArmor: true
-                    fromColor: 84f491
-                    toColor: 62ae7f
-                    width: 4
-                    height: 60
-                    damage: 25
-                    healPercent: 1
+	                	shootEffect: shootBig
+	                	smokeEffect: shootBigSmoke
+                    	pierceArmor: true
+                    	fromColor: 84f491
+                    	toColor: 62ae7f
+                    	width: 4
+                    	height: 60
+                    	damage: 25
         }
     }
 ]
