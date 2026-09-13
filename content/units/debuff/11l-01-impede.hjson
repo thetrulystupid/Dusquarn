@@ -42,7 +42,7 @@ weapons: [
           width: 1.5
 	      status: sapped
 	      statusDuration: 90
-          colors: [bf92f9, ffffff]
+          colors: [dc88ef, ffffff]
         }
     }
 ]
