@@ -8,7 +8,8 @@ speed: 3
 rotateSpeed: 3.5
 accel: 0.021
 groundLayer: 60
-health: 180
+health: 220
+armor: 2
 engineSize: 0
 hitSize: 9
 engines: [
