@@ -1,0 +1,47 @@
+type: mech
+name: Remedy
+description: Fires blasts of shrapnel at nearby enemies. Heals surrounding allies.
+speed: 0.7
+targetAir: true
+flying: false
+health: 480
+armor: 4
+hitSize: 10
+outlineColor: 16192b
+mechLegColor: 16192b
+abilities: [
+  {
+    type: RegenFieldAbility
+    reload: 40
+    range: 60
+    maxTargets: 3
+    sameTypeHealMult: 0.25
+    amount: 40
+  }
+]
+  weapons: [
+    {
+        x: 4
+        y: 0
+        name: 11k-01-remedy-gun
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 44
+        recoil: 1.5
+      	top: false
+	      shootSound: shootCleroi
+	            bullet: {
+                    type: ShrapnelBulletType
+	                  shootEffect: shootBig
+	                  smokeEffect: shootBigSmoke
+                    pierceArmor: true
+                    fromColor: 84f491
+                    toColor: 62ae7f
+                    width: 4
+                    height: 60
+                    damage: 25
+                    healPercent: 1
+        }
+    }
+]
