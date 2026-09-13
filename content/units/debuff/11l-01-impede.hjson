@@ -4,9 +4,9 @@ name: Impede
 description: Fires small sapping bullets at nearby enemies.
 drag: 0.035
 outlineColor: 16192b
-speed: 6
+speed: 3
 rotateSpeed: 3.5
-accel: 0.014
+accel: 0.021
 groundLayer: 60
 health: 180
 engineSize: 0
