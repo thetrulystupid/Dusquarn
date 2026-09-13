@@ -12,14 +12,14 @@ armor: 4
 isEnemy: false
 itemCapacity: 40
 buildSpeed: 1.0
-mineSpeed: 6.5
+mineSpeed: 5.0
 mineTier: 1
-hitSize: 7
+hitSize: 8
 outlineColor: 16192b
 engines: [
   {
     x: 0
-    y: -8
+    y: -7
     radius: 2.5
     rotation: -90
   }
