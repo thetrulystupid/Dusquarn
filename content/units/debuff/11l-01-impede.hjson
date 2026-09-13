@@ -23,7 +23,7 @@ itemCapacity: 0
 weapons: [
   {
     x: 0
-    y: 2
+    y: 1.5
     mirror: false
     alternate: false
     reload: 15
@@ -31,16 +31,16 @@ weapons: [
     continuous: true
     shootCone: 60
     rotate: false
-    shootSound: torch
+    loopSound: shootSublimate
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 9
+          damage: 6
           flareLength: 4
           length: 40
           width: 1.5
 	        status: sapped
 	        statusDuration: 90
-          colors: [bf92f9, 754f9a]
+          colors: [bf92f9, ffffff]
         }
     }
 ]
