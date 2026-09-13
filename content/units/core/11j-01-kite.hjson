@@ -2,9 +2,9 @@ type: flying
 flying: true
 name: Kite
 description: Defends the Trench core. Fires small missiles at nearby enemies.
-speed: 6
+speed: 3
 drag: 0.015
-accel: 0.014
+accel: 0.021
 groundLayer: 60
 engineSize: 0
 health: 400
@@ -19,15 +19,15 @@ outlineColor: 16192b
 engines: [
   {
     x: 0
-    y: -5.5
+    y: -8
     radius: 2.5
     rotation: -90
   }
 ]
   weapons: [
     {
-        x: 5
-        y: -3
+        x: 3
+        y: -2
         mirror: true
         alternate: true
         rotate: false
