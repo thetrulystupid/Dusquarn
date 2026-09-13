@@ -11,7 +11,7 @@ outlineColor: 16192b
 mechLegColor: 16192b
 abilities: [
   {
-    type: RegenFieldAbility
+    type: RepairFieldAbility
     reload: 40
     range: 60
     maxTargets: 3
