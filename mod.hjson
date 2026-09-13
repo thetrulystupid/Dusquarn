@@ -1,13 +1,11 @@
 name: "eclipsed"
 description:
-''' 
-A simple mod that adds a new planet - Dusquarn - to mindustry.
+'''Basic HJSON mod designed to be a weird middle child between Serpulo and Erekir.
 
-Dusquarn is an eerie and dull rocky planet covered in islands surrounded by deep, murky oceans.
+A dull, lonely planet covered in shores, valleys and mountains orbiting a sad red dwarf star; Drevosk.
 
-Though, the citizens don't seem to appreciate you being here.
-''' 
+The inhabitants here don't seem to appreciate your attempt to colonize the planet.''' 
 author: "__rag_."
 minGameVersion: 146
 version: "0.1"
-displayName: Eclipsed
+displayName: Dusquarn
