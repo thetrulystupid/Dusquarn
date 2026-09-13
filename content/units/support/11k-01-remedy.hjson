@@ -27,20 +27,30 @@ abilities: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 56
+        reload: 28
         recoil: 1.5
       	top: false
 	      shootSound: shootCleroi
 	            bullet: {
-                    type: ShrapnelBulletType
-	                	shootEffect: shootBig
-	                	smokeEffect: shootBigSmoke
-                    	pierceArmor: true
-                    	fromColor: 84f491
-                    	toColor: 62ae7f
-                    	width: 4
-                    	height: 60
-                    	damage: 25
+                    type: BasicBulletType
+						speed: 2.5,
+						damage: 35,
+						pierce: true
+						pierceCap: 1
+						hitEffect: hitBulletBig
+						despawnEffect: hitBulletBig
+						width: 5
+						height: 8
+						frontColor: 84f491
+						backColor: 62ae7f
+						trailColor: 84f491
+						trailLength: 6
+						trailWidth: 2
+  						weaveMag: 1.5
+						weaveScale: 2
+						shootEffect: shootBig,
+						smokeEffect: shootBigSmoke,
+   						lifetime: 55
         }
     }
 ]
