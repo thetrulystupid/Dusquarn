@@ -1,0 +1,46 @@
+type: flying
+name: Kite
+description: Defends the Trench core. Fires heavy armor-piercing blasts at nearby enemies.
+speed: 6
+drag: 0.015
+health: 400
+armor: 4
+isEnemy: false
+itemCapacity: 40
+buildSpeed: 0.9
+mineSpeed: 6.5
+mineTier: 1
+hitSize: 7
+outlineColor: 16192b
+  weapons: [
+    {
+        x: 5
+        y: -3
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 66
+	shootSound: shootMerui
+	bullet: {
+        type: MissileBulletType
+		speed: 3,
+		splashDamage: 33,
+		splashDamageRadius: 27,
+		width: 6
+		height: 8
+		frontColor: d9c277
+		backColor: ad574d
+		trailColor: ffd37f
+		trailLength: 6
+		trailWidth: 1.5
+  		homingPower: 0.03
+  		homingDelay: 12
+  		homingRange: 44
+		shootEffect: shootSmall,
+		smokeEffect: shootSmallSmoke,
+		hitEffect: explosion
+		despawnEffect: explosion
+        buildingDamageMultiplier: 0.01
+        }
+    }
+]
