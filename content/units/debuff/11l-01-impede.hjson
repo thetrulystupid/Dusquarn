@@ -1,8 +1,8 @@
 type: flying
 flying: true
 name: Impede
-description: Fires small sapping bullets at nearby enemies.
-drag: 0.035
+description: Burns nearby enemies with a sapping flamethrower.
+drag: 0.005
 outlineColor: 16192b
 speed: 3
 rotateSpeed: 3.5
@@ -21,34 +21,26 @@ engines: [
 ]
 itemCapacity: 0
 weapons: [
-    {
-        x: 0
-        y: 0
-        mirror: true
-        alternate: false
-        rotate: false
-        reload: 33
-        shoot: {
-	  type: ShootHelix
-          shots: 2
-          shotDelay: 7
-         }
-        bullet: {
-            type: BasicBulletType
-            speed: 2.5
-   	    frontColor: 754f9a
-    	    backColor: bf92f9
-   	    trailColor: 754f9a
-            weaveMag: 4
-            weaveScale: 4
-	    trailLength: 6
-	    trailWidth: 1
-	    lifetime: 31
-            width: 4
-            height: 8
-            damage: 7
-            status: sapped
-            statusDuration: 360
+  {
+    x: 0
+    y: 2
+    mirror: false
+    alternate: false
+    reload: 15
+    alwaysContinuous: true
+    continuous: true
+    shootCone: 60
+    rotate: false
+    shootSound: torch
+    bullet: {
+          type: ContinuousFlameBulletType
+          damage: 9
+          flareLength: 4
+          length: 40
+          width: 1.5
+	        status: sapped
+	        statusDuration: 90
+          colors: [bf92f9, 754f9a]
         }
     }
 ]
