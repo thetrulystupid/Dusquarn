@@ -42,6 +42,7 @@ weapons: [
           width: 1.5
 	      status: sapped
 	      statusDuration: 90
+		  pierceCap: 2
           colors: [dc88ef, ffffff]
         }
     }
