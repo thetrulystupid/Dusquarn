@@ -7,11 +7,11 @@ requirements: [
 ]
 isFirstTier: true
 size: 3
-unitType: 11j-01-trowel
+unitType: 11j-01-kite
 squareSprite: false
 health: 1200
-armor: 3
-itemCapacity: 3000
+armor: 6
+itemCapacity: 2000
 unitCapModifier: 12
 alwaysUnlocked: true
 category: effect
