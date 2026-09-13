@@ -21,8 +21,8 @@ abilities: [
 ]
   weapons: [
     {
-        x: 8
-        y: 0
+        x: 6
+        y: 1.5
         name: 11k-01-remedy-gun
         mirror: true
         alternate: true
