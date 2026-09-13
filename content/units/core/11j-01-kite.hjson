@@ -3,8 +3,8 @@ flying: true
 name: Kite
 description: Defends the Trench core. Fires small missiles at nearby enemies.
 speed: 3
-drag: 0.004
-accel: 0.021
+drag: 0.24
+accel: 0.16
 groundLayer: 60
 engineSize: 0
 health: 400
