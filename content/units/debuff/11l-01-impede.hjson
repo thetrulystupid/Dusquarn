@@ -4,7 +4,7 @@ name: Impede
 description: Burns nearby enemies with a sapping flamethrower.
 drag: 0.03
 outlineColor: 16192b
-speed: 3
+speed: 1.5
 rotateSpeed: 3.5
 accel: 0.075
 groundLayer: 60
@@ -33,14 +33,15 @@ weapons: [
     shootCone: 60
     rotate: false
     shootSound: shootSublimate
+	shootVolume: 0.35
     bullet: {
           type: ContinuousFlameBulletType
           damage: 6
           flareLength: 4
           length: 40
           width: 1.5
-	        status: sapped
-	        statusDuration: 90
+	      status: sapped
+	      statusDuration: 90
           colors: [bf92f9, ffffff]
         }
     }
