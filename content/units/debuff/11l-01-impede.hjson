@@ -2,11 +2,11 @@ type: flying
 flying: true
 name: Impede
 description: Burns nearby enemies with a sapping flamethrower.
-drag: 0.005
+drag: 0.1
 outlineColor: 16192b
 speed: 3
 rotateSpeed: 3.5
-accel: 0.021
+accel: 0.075
 groundLayer: 60
 health: 220
 armor: 2
