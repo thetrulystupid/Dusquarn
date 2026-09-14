@@ -30,7 +30,7 @@ abilities: [
         reload: 32
         recoil: 2
       	under: true
-	      shootSound: shootCleroi
+	      shootSound: shootRetusa
 	            bullet: {
                     type: BasicBulletType
 						speed: 2.5,
@@ -39,15 +39,15 @@ abilities: [
 						pierceCap: 1
 						hitEffect: hitBulletBig
 						despawnEffect: hitBulletBig
-						width: 5
-						height: 8
+						width: 8
+						height: 11
 						frontColor: 84f491
 						backColor: 62ae7f
 						trailColor: 84f491
 						trailLength: 6
 						trailWidth: 2
-  						weaveMag: 1.5
-						weaveScale: 2
+  						weaveMag: 2
+						weaveScale: 3
 						shootEffect: shootBig,
 						smokeEffect: shootBigSmoke,
    						lifetime: 55
