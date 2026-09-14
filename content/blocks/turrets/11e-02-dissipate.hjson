@@ -23,7 +23,7 @@ ammoTypes: {
 	manganese: {
 		type: BasicBulletType
 		speed: 5.5,
-   		splashDamage: 45
+   		splashDamage: 60
     	splashDamageRadius: 34
 		hitEffect: flakExplosion
 		despawnEffect: flakExplosion
@@ -50,7 +50,7 @@ ammoTypes: {
 				trailLength: 4
 				trailWidth: 1.5
     	    	pierceBuilding: false
-    	    	splashDamage: 15
+    	    	splashDamage: 19
     			splashDamageRadius: 17
 				hitEffect: flakExplosion
 				despawnEffect: flakExplosion
