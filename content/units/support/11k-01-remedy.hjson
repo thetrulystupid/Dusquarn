@@ -29,7 +29,7 @@ abilities: [
         rotate: false
         reload: 28
         recoil: 1.5
-      	top: false
+      	under: true
 	      shootSound: shootCleroi
 	            bullet: {
                     type: BasicBulletType
