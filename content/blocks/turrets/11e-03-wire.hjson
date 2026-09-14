@@ -23,7 +23,7 @@ ammoTypes: {
 	luma-alloy: {
 		type: MissileBulletType
 		speed: 3,
-		splashDamage: 30,
+		splashDamage: 42,
 		splashDamageRadius: 20,
     	status: shocked
     	statusDuration: 300
