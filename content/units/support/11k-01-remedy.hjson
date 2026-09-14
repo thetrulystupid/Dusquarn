@@ -15,8 +15,8 @@ abilities: [
     reload: 80
     range: 60
     maxTargets: 2
-    sameTypeHealMult: 0.25
-    amount: 40
+    sameTypeHealMult: 0.1
+    amount: 30
   }
 ]
   weapons: [
@@ -27,14 +27,14 @@ abilities: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 28
+        reload: 32
         recoil: 2
       	under: true
 	      shootSound: shootCleroi
 	            bullet: {
                     type: BasicBulletType
 						speed: 2.5,
-						damage: 26,
+						damage: 22,
 						pierce: true
 						pierceCap: 1
 						hitEffect: hitBulletBig
