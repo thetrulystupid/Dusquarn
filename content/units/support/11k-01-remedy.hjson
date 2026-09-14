@@ -36,7 +36,7 @@ abilities: [
 						speed: 2.5,
 						damage: 22,
 						pierce: true
-						pierceCap: 1
+						pierceCap: 2
 						hitEffect: hitBulletBig
 						despawnEffect: hitBulletBig
 						width: 8
