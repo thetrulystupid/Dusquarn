@@ -46,7 +46,7 @@ abilities: [
 						trailColor: 84f491
 						trailLength: 6
 						trailWidth: 2
-  						weaveMag: 2
+  						weaveMag: 4
 						weaveScale: 3
 						shootEffect: shootBig,
 						smokeEffect: shootBigSmoke,
