@@ -33,10 +33,10 @@ weapons: [
     shootCone: 60
     rotate: false
     shootSound: shootSublimate
-	shootVolume: 0.35
+	shootSoundVolume: 0.15
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 7
+          damage: 6
           flareLength: 4
           length: 30
           width: 1.5
