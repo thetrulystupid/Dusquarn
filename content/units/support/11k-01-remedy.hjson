@@ -12,7 +12,7 @@ mechLegColor: 16192b
 abilities: [
   {
     type: RepairFieldAbility
-    reload: 250
+    reload: 240
     range: 60
     maxTargets: 3
     sameTypeHealMult: 0.25
