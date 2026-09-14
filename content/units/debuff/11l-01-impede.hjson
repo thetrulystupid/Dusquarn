@@ -27,7 +27,7 @@ weapons: [
     y: 1.5
     mirror: false
     alternate: false
-    reload: 15
+    reload: 12
     alwaysContinuous: true
     continuous: true
     shootCone: 60
@@ -36,7 +36,7 @@ weapons: [
 	shootSoundVolume: 0.15
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 6
+          damage: 5
           flareLength: 4
           length: 30
           width: 1.5
