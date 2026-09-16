@@ -1,0 +1,35 @@
+type: naval
+name: Puddle
+description: Fires sapping beams at nearby enemies. Has lifesteal.
+speed: 0.9
+armor: 4
+canDrown: false
+omniMovement: false
+faceTarget: false
+health: 860
+hitSize: 10
+outlineColor: 16192b
+  weapons: [
+    {
+        x: 3
+        y: -1.5
+        name: 11o-01-puddle-gun
+        mirror: true
+        alternate: true
+        rotate: true
+		rotationLimit: 270
+        reload: 34
+        shootSound: shootSap
+        recoil: 1.2
+        bullet: {
+            type: SapBulletType
+            length: 70
+            sapStrength: 0.35
+            width: 0.5
+            color: dc88ef
+	   	   status: sapped
+	   	   statusDuration: 120
+            damage: 24
+        }
+    }
+]
