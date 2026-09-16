@@ -7,15 +7,16 @@ health: 660
 armor: 4
 outlineColor: 16192b
 hitSize: 10
+rotateSpeed: 3.6
 legCount: 4
 legLength: 9.9
 legSpeed: 0.07
 legForwardScl: 1.11
-legExtension: -2
+legExtension: -1
 legMoveSpace: 1.6
   weapons: [
     {
-        x: -4
+        x: 4
         y: 2
         name: 11m-01-shred-gun
         mirror: true
@@ -25,6 +26,7 @@ legMoveSpace: 1.6
         recoil: 1.5
 		rotate: true
 		rotationLimit: 120
+		rotateSpeed: 2.4
       	top: true
 	      shootSound: shootSalvo
 	            bullet: {
@@ -54,6 +56,7 @@ legMoveSpace: 1.6
         recoil: 2
 		rotate: true
 		rotationLimit: 90
+		rotateSpeed: 1.2
       	top: true
 	      shootSound: shootSpectre
 	            bullet: {
@@ -67,7 +70,7 @@ legMoveSpace: 1.6
 					backColor: d06b53
 					trailColor: ffa665
 					trailLength: 5
-					trailWidth: 3
+					trailWidth: 2
 					shootEffect: shootBig,
 					smokeEffect: shootBigSmoke,
 					hitEffect: explosion
