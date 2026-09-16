@@ -36,7 +36,7 @@ weapons: [
 	shootSoundVolume: 0.15
     bullet: {
           type: ContinuousFlameBulletType
-          damage: 5
+          damage: 4
           flareLength: 4
           length: 30
           width: 1.5
