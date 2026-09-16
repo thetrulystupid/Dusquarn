@@ -16,7 +16,7 @@ legExtension: -1
 legMoveSpace: 1.6
   weapons: [
     {
-        x: 4
+        x: -4
         y: 2
         name: 11m-01-shred-gun
         mirror: true
