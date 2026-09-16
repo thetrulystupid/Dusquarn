@@ -10,9 +10,9 @@ hitSize: 10
 legCount: 4
 legLength: 9.9
 legSpeed: 0.07
-legForwardScl: 1.66
-legExtension: -3
-legMoveSpace: 3.3
+legForwardScl: 1.11
+legExtension: -2
+legMoveSpace: 1.6
   weapons: [
     {
         x: -4
@@ -23,6 +23,8 @@ legMoveSpace: 3.3
         rotate: false
         reload: 42
         recoil: 1.5
+		rotate: true
+		rotationLimit: 120
       	top: true
 	      shootSound: shootSalvo
 	            bullet: {
@@ -50,11 +52,13 @@ legMoveSpace: 3.3
         rotate: false
         reload: 77
         recoil: 2
+		rotate: true
+		rotationLimit: 90
       	top: true
 	      shootSound: shootSpectre
 	            bullet: {
                     type: BasicBulletType
-					speed: 2,
+					speed: 3,
    		            splashDamage: 36
     	            splashDamageRadius: 27
 					width: 9
@@ -62,7 +66,7 @@ legMoveSpace: 3.3
 					frontColor: ffa665
 					backColor: d06b53
 					trailColor: ffa665
-					trailLength: 4
+					trailLength: 5
 					trailWidth: 3
 					shootEffect: shootBig,
 					smokeEffect: shootBigSmoke,
