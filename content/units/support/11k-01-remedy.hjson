@@ -1,11 +1,11 @@
 type: mech
 name: Remedy
-description: Fires blasts of shrapnel at nearby enemies. Heals surrounding allies.
+description: Fires large  at nearby enemies. Heals surrounding allies.
 speed: 0.6
 targetAir: true
 flying: false
-health: 480
-armor: 4
+health: 460
+armor: 3
 hitSize: 10
 outlineColor: 16192b
 mechLegColor: 16192b
