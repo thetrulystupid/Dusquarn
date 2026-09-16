@@ -1,0 +1,72 @@
+type: legs
+name: Shred
+description: 
+speed: 0.6
+flying: false
+health: 660
+armor: 4
+outlineColor: 16192b
+hitSize: 9
+legCount: 4
+legLength: 3.3
+legSpeed: 0.11
+legForwardScl: 0.63
+legExtension: -2
+legMoveSpace: 1.7
+  weapons: [
+    {
+        x: 3
+        y: 2
+        name: 11m-01-shred-gun
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 58
+        recoil: 1.5
+      	top: false
+	      shootSound: shootSalvo
+	            bullet: {
+                    type: BasicBulletType
+						              speed: 4,
+						              damage: 14,
+						              width: 4
+						              height: 8
+						              frontColor: ffa665
+						              backColor: d06b53
+						              trailColor: ffa665
+						              trailLength: 4
+						              trailWidth: 1
+						              shootEffect: shootSmall,
+						              smokeEffect: shootSmallSmoke,
+   						            lifetime: 45
+        }
+    },
+    {
+        x: 0
+        y: -1.5
+        name: 11m-01-shred-large-gun
+        mirror: false
+        alternate: false
+        rotate: false
+        reload: 88
+        recoil: 3
+      	top: true
+	      shootSound: shootHail
+	            bullet: {
+                    type: BasicBulletType
+						              speed: 2,
+   		                    splashDamage: 36
+    	                    splashDamageRadius: 27
+						              width: 8
+						              height: 9
+						              frontColor: ffa665
+						              backColor: d06b53
+						              trailColor: ffa665
+						              trailLength: 3
+						              trailWidth: 2
+						              shootEffect: shootBig,
+						              smokeEffect: shootBigSmoke,
+   						            lifetime: 66
+        }
+    }
+]
