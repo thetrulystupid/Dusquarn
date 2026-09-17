@@ -14,8 +14,8 @@ legSpeed: 0.25
 legForwardScl: 0.6
 legExtension: 0.6
 legMoveSpace: 1.2
-legMaxLength: 1.0
-legMinLength: 0.4
+legMaxLength: 1.2
+legMinLength: 0.6
 stepSound: walkerStepSmall
   weapons: [
     {
