@@ -5,6 +5,7 @@ size: 2
 category: production
 squareSprite: false
 warmupSpeed: 0.009
+arrows: 1
 tier: 1
 research: 11a-01-core-trench
 researchCost: [
