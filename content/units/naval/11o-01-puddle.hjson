@@ -30,7 +30,7 @@ outlineColor: 16192b
             color: dc88ef
 	   	   status: sapped
 	   	   statusDuration: 120
-            damage: 28
+            damage: 20
         }
     }
 ]
