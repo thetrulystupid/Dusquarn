@@ -19,18 +19,18 @@ outlineColor: 16192b
         alternate: true
         rotate: true
 		rotationLimit: 270
-        reload: 18
+        reload: 23
         shootSound: shootSap
         recoil: 1.2
         bullet: {
             type: SapBulletType
             length: 70
-            sapStrength: 0.35
+            sapStrength: 0.25
             width: 0.5
             color: dc88ef
 	   	   status: sapped
 	   	   statusDuration: 120
-            damage: 18
+            damage: 28
         }
     }
 ]
