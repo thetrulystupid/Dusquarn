@@ -16,6 +16,7 @@ legExtension: 0.6
 legMoveSpace: 1.2
 legMaxLength: 1.0
 legMinLength: 0.4
+stepSound: walkerStepSmall
   weapons: [
     {
         x: -4
