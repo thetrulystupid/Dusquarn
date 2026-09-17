@@ -19,7 +19,7 @@ outlineColor: 16192b
         alternate: true
         rotate: true
 		rotationLimit: 270
-        reload: 22
+        reload: 18
         shootSound: shootSap
         recoil: 1.2
         bullet: {
