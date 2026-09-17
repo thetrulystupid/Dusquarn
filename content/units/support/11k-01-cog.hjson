@@ -1,6 +1,6 @@
 type: mech
-name: Remedy
-description: Fires large  at nearby enemies. Heals surrounding allies.
+name: Cog
+description: Fires large laser blasts at nearby enemies. Heals surrounding allies.
 speed: 0.6
 targetAir: true
 flying: false
@@ -16,7 +16,7 @@ abilities: [
     range: 60
     maxTargets: 3
     sameTypeHealMult: 0.25
-    amount: 40
+    amount: 30
   }
 ]
   weapons: [
