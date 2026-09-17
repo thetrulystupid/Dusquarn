@@ -5,7 +5,7 @@ description: Burns nearby enemies with a sapping flamethrower.
 drag: 0.03
 outlineColor: 16192b
 speed: 1.5
-rotateSpeed: 3.5
+rotateSpeed: 2.4
 accel: 0.075
 groundLayer: 60
 health: 280
