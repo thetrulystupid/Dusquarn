@@ -9,9 +9,9 @@ outlineColor: 16192b
 hitSize: 10
 rotateSpeed: 3.6
 legCount: 4
-legLength: 9.0
+legLength: 7.0
 legSpeed: 0.2
-legForwardScl: 0.2
+legForwardScl: 0.4
 legExtension: 0
 legMoveSpace: 1.1
   weapons: [
