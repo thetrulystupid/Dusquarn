@@ -8,17 +8,18 @@ omniMovement: false
 faceTarget: false
 health: 860
 hitSize: 10
+rotateSpeed: 2.4
 outlineColor: 16192b
   weapons: [
     {
-        x: 3
+        x: 4
         y: -1.5
         name: 11o-01-puddle-gun
         mirror: true
         alternate: true
         rotate: true
 		rotationLimit: 270
-        reload: 34
+        reload: 22
         shootSound: shootSap
         recoil: 1.2
         bullet: {
@@ -29,7 +30,7 @@ outlineColor: 16192b
             color: dc88ef
 	   	   status: sapped
 	   	   statusDuration: 120
-            damage: 24
+            damage: 18
         }
     }
 ]
