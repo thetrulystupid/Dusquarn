@@ -13,7 +13,7 @@ legLength: 7.0
 legSpeed: 0.2
 legForwardScl: 0.4
 legExtension: 0
-legMoveSpace: 1.1
+legMoveSpace: 0.6
   weapons: [
     {
         x: -4
