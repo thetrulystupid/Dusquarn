@@ -1,0 +1,85 @@
+type: flying
+flying: true
+name: Sear
+description: Burns nearby enemies with a large flamethrower and sapping blasts.
+drag: 0.026
+outlineColor: 16192b
+speed: 1.5
+rotateSpeed: 2.0
+accel: 0.075
+groundLayer: 60
+health: 680
+armor: 6
+engineSize: 0
+hitSize: 13
+engines: [
+  {
+    x: 0
+    y: -7
+    radius: 4
+    rotation: -90
+  }
+]
+itemCapacity: 0
+weapons: [
+  {
+    x: 0
+    y: 1.5
+    mirror: false
+    alternate: false
+    reload: 10
+    alwaysContinuous: true
+    continuous: true
+    shootCone: 60
+    rotate: false
+    shootSound: shootSublimate
+	shootSoundVolume: 0.15
+    bullet: {
+          type: ContinuousFlameBulletType
+          damage: 6
+          flareLength: 6
+          length: 55
+          width: 2.5
+	      status: sapped
+	      statusDuration: 120
+		  pierceCap: 4
+          colors: [dc88ef, ffffff]
+        }
+    }
+    {
+        x: 3
+        y: 0
+        name: 11l-02-sear-gun
+        mirror: true
+        alternate: true
+        rotate: false
+        reload: 14
+        recoil: 1.5
+      	top: false
+	      shootSound: shootCleroi
+	            bullet: {
+                    type: BasicBulletType
+						speed: 2.5,
+						damage: 14,
+						pierce: true
+						pierceCap: 2
+						hitEffect: hitBulletBig
+						despawnEffect: hitBulletBig
+						width: 6
+						height: 8
+						frontColor: dc88ef
+						backColor: ffffff
+						trailColor: dc88ef
+						trailLength: 4
+						trailWidth: 1.5
+  						weaveMag: 3
+						weaveScale: 2
+						shootEffect: shootBig,
+						smokeEffect: shootBigSmoke,
+   						lifetime: 55
+            pierce: true
+            pierceCap: 2
+            pierceArmor: true
+        }
+    }
+]
