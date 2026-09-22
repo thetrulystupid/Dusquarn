@@ -1,12 +1,12 @@
 type: mech
 name: Cog
-description: Fires large laser blasts at nearby enemies. Heals surrounding allies.
+description: Fires wavy laser blasts at nearby enemies. Heals surrounding allies.
 speed: 0.6
 targetAir: true
 flying: false
 health: 460
 armor: 3
-hitSize: 10
+hitSize: 7
 outlineColor: 16192b
 mechLegColor: 16192b
 abilities: [
@@ -39,13 +39,13 @@ abilities: [
 						pierceCap: 2
 						hitEffect: hitBulletBig
 						despawnEffect: hitBulletBig
-						width: 8
-						height: 11
+						width: 5
+						height: 8
 						frontColor: 84f491
 						backColor: 62ae7f
 						trailColor: 84f491
-						trailLength: 6
-						trailWidth: 2
+						trailLength: 12
+						trailWidth: 1
   						weaveMag: 4
 						weaveScale: 3
 						shootEffect: shootBig,
