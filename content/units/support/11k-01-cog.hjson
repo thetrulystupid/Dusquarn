@@ -27,16 +27,17 @@ abilities: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 32
+        reload: 11
         recoil: 2
       	top: false
 	      shootSound: shootRetusa
 	            bullet: {
                     type: BasicBulletType
 						speed: 2.5,
-						damage: 22,
+						damage: 11,
 						pierce: true
 						pierceCap: 2
+						pierceArmor: true
 						hitEffect: hitBulletBig
 						despawnEffect: hitBulletBig
 						width: 5
