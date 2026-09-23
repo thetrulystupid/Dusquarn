@@ -27,31 +27,48 @@ abilities: [
         mirror: true
         alternate: true
         rotate: false
-        reload: 11
+        reload: 36
         recoil: 2
+			shoot: {
+          		shots: 2
+          		shotDelay: 12
+        		}
       	top: false
 	      shootSound: shootRetusa
 	            bullet: {
-                    type: BasicBulletType
-						speed: 2.5,
-						damage: 11,
-						pierce: true
-						pierceCap: 2
-						pierceArmor: true
-						hitEffect: hitBulletBig
-						despawnEffect: hitBulletBig
-						width: 5
-						height: 8
-						frontColor: 84f491
-						backColor: 62ae7f
-						trailColor: 84f491
-						trailLength: 12
-						trailWidth: 1
-  						weaveMag: 4
-						weaveScale: 3
-						shootEffect: shootBig,
-						smokeEffect: shootBigSmoke,
-   						lifetime: 55
-        }
+        chargeEffect: {
+            type: MultiEffect
+            lifetime: 45
+            effects: [
+              {
+                type: ParticleEffect
+                particles: 9
+                length: 15
+                baseLength: 2
+                colorFrom: 96f58c
+                colorTo: 54d67d
+                sizeFrom: 1.6
+                sizeTo: 0.4
+                lifetime: 45
+                interp: pow2In
+                sizeInterp: pow2
+                followParent: true
+                rotWithParent: false
+          }
+        ]
+      }
+  type: LaserBulletType
+    x: 0
+    y: 2
+    width: 7
+    length: 130
+    damage: 22
+    pierce: true
+    pierceCap: 2
+    collidesTeam: true
+    shootEffect: none
+    smokeEffect: none
+    colors: [98ddb1, cbfbc9, 98ddb1, ffffff]	
+    }
     }
 ]
